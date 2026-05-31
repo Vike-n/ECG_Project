@@ -840,6 +840,312 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C9"
+				(at 6.7936 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u"
+				(at 4.2536 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_3_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C11"
+				(at 6.7936 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10n"
+				(at 4.2536 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_4_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1275,161 +1581,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -1851,6 +2002,286 @@
 				)
 			)
 			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R18"
+				(at -6.35 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100K"
+				(at -3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R13"
+				(at 6.35 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3K8"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_11_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_11_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2598,6 +3029,428 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R17"
+				(at -6.35 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "27K"
+				(at -3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_7_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R16"
+				(at 2.54 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100K"
+				(at 2.54 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_8_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_8_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R12"
+				(at 6.35 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_9_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_9_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPST_x2"
 			(pin_names
 				(offset 0)
@@ -3169,6 +4022,12 @@
 		)
 	)
 	(junction
+		(at 35.56 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04093699-ac5f-4141-9501-32434ebfab55")
+	)
+	(junction
 		(at 44.45 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3211,10 +4070,22 @@
 		(uuid "29c71336-8437-4163-aabe-f888fca17204")
 	)
 	(junction
+		(at 106.68 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d657032-d72e-4602-a9b3-0d5d1c9ee4be")
+	)
+	(junction
 		(at 35.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e4e1e93-4206-4f62-ad72-e1ef88091f13")
+	)
+	(junction
+		(at 121.92 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31f0807d-698e-435c-bbfb-288632d93642")
 	)
 	(junction
 		(at 269.24 63.5)
@@ -3301,7 +4172,7 @@
 		(uuid "873a1fa5-3193-4973-a932-a7358ccf6afb")
 	)
 	(junction
-		(at 135.89 163.83)
+		(at 105.41 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87f9325f-098e-4aeb-97bc-e92107ca4803")
@@ -3335,12 +4206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a56e84ab-8763-4d70-82f0-b6ed0e17241f")
-	)
-	(junction
-		(at 106.68 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a86c0b0e-26c6-4a3e-97c0-53f6704a1491")
 	)
 	(junction
 		(at 220.98 45.72)
@@ -3446,7 +4311,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 166.37) (xy 152.4 166.37)
+			(xy 124.46 102.87) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 163.83) (xy 135.89 163.83)
+			(xy 102.87 100.33) (xy 105.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +4541,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 153.67) (xy 135.89 163.83)
+			(xy 105.41 90.17) (xy 105.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3776,13 +4641,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 123.19) (xy 35.56 121.92)
+			(xy 121.92 125.73) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "473a0428-dc83-4793-86b3-266cbefa9fe5")
+		(uuid "498659a0-b951-42cb-93c3-4011f08fc667")
 	)
 	(wire
 		(pts
@@ -3833,6 +4698,16 @@
 			(type default)
 		)
 		(uuid "55d65a1c-6874-4416-a0fa-ad2b8979d24d")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5624936b-038e-4bd6-9620-617122e51a68")
 	)
 	(wire
 		(pts
@@ -3906,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 163.83) (xy 137.16 163.83)
+			(xy 105.41 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3926,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 110.49) (xy 35.56 114.3)
+			(xy 35.56 110.49) (xy 35.56 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4016,6 +4891,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 120.65) (xy 35.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc94ff5-0bbe-4a2b-a6ee-d68c1384a4ab")
+	)
+	(wire
+		(pts
 			(xy 63.5 54.61) (xy 63.5 66.04)
 		)
 		(stroke
@@ -4076,6 +4961,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 113.03) (xy 35.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84808672-dc0d-4628-b816-38e75ccc89ac")
+	)
+	(wire
+		(pts
 			(xy 241.3 45.72) (xy 241.3 50.8)
 		)
 		(stroke
@@ -4086,7 +4981,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 153.67) (xy 135.89 153.67)
+			(xy 110.49 90.17) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4166,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 153.67) (xy 154.94 166.37)
+			(xy 124.46 90.17) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 166.37) (xy 143.51 166.37)
+			(xy 111.76 102.87) (xy 113.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +5441,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 168.91) (xy 137.16 168.91)
+			(xy 105.41 105.41) (xy 106.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +5491,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 153.67) (xy 154.94 153.67)
+			(xy 118.11 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4653,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "ea98af02-8c91-4a87-b7e1-ebfddecae91e")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9a19a7-90b6-4fdf-bcf6-3388553223e2")
 	)
 	(wire
 		(pts
@@ -4785,8 +5690,9 @@
 		(uuid "fe2cffd2-762d-4693-a534-95bf80fe126c")
 	)
 	(symbol
+		(lib_name "R_8")
 		(lib_id "Device:R")
-		(at 129.54 163.83 90)
+		(at 106.68 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4794,30 +5700,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1200aa3e-3e5e-4684-9d64-0bf2eff88f6c")
-		(property "Reference" "R12"
-			(at 129.54 157.48 90)
+		(uuid "0b0cb6a2-a183-47dc-9aab-2875d70bf3d3")
+		(property "Reference" "R20"
+			(at 109.22 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 129.54 160.02 90)
+		(property "Value" "100K"
+			(at 109.22 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 165.608 90)
+			(at 104.902 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +5735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 163.83 0)
+			(at 106.68 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +5746,88 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 163.83 0)
+			(at 106.68 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4704737-7856-400b-8c8d-95ff03dc5de8")
+		)
+		(pin "2"
+			(uuid "48c399d6-53e6-4824-b987-d5c82ec54ccc")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_9")
+		(lib_id "Device:R")
+		(at 99.06 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1200aa3e-3e5e-4684-9d64-0bf2eff88f6c")
+		(property "Reference" "R12"
+			(at 99.06 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 99.06 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,9 +6176,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 148.59 90)
-		(mirror x)
+		(lib_name "C_4")
+		(lib_id "Device:C")
+		(at 97.79 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5199,29 +6187,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "216bdbfb-eb87-459c-a5d3-0930c247e77e")
-		(property "Reference" "R15"
-			(at 41.91 142.24 90)
+		(uuid "2028b450-48b1-4088-877c-d679dfceeeef")
+		(property "Reference" "C12"
+			(at 101.6 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 41.91 144.78 90)
+		(property "Value" "10n"
+			(at 101.6 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 146.812 90)
+			(at 96.8248 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +6222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 148.59 0)
+			(at 97.79 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,8 +6232,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 41.91 148.59 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,15 +6244,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "92c1ceb7-d6cb-43c3-af74-c5c6748c4a90")
+			(uuid "9802feba-cc24-4e50-b00a-2e52e1966530")
 		)
 		(pin "2"
-			(uuid "763b78b7-fd8c-4f10-b2a3-d25427e5bdc5")
+			(uuid "801dfd0c-ece8-4018-87e2-570eafdc936a")
 		)
 		(instances
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5432,6 +6422,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_4")
 		(lib_id "Device:C")
 		(at 91.44 149.86 90)
 		(unit 1)
@@ -5453,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 91.44 145.6064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,6 +6581,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_8")
 		(lib_id "Device:R")
 		(at 53.34 173.99 0)
 		(unit 1)
@@ -5611,7 +6603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 55.88 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,6 +6657,89 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_6")
+		(lib_id "Device:R")
+		(at 48.26 163.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c8b5d9-48e3-4f35-aa95-e3b08db46236")
+		(property "Reference" "R15"
+			(at 50.8 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33K"
+			(at 50.8 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.038 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06b87447-0970-4aa5-ad09-b3efc167793c")
+		)
+		(pin "2"
+			(uuid "488c5f53-c496-4837-9b36-edc02202e91f")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5750,8 +6825,9 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "Device:C")
-		(at 41.91 158.75 90)
+		(at 50.8 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5760,9 +6836,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41fac8e5-05b5-4d11-b1b3-340fbe19cd1e")
-		(property "Reference" "C10"
-			(at 41.91 151.9564 90)
+		(uuid "44dd9a08-f549-4d66-a4c4-5af19a6bb076")
+		(property "Reference" "C13"
+			(at 50.8 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5771,8 +6847,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 41.91 154.4964 90)
+		(property "Value" "100n"
+			(at 50.8 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5782,7 +6858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 157.7848 0)
+			(at 54.61 109.5248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +6869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 158.75 0)
+			(at 50.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +6880,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 158.75 0)
+			(at 50.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,15 +6891,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "379497a6-3c7a-400b-8e1f-d1f0adaf70b0")
+			(uuid "1f279fbc-134d-4eec-99f6-8322dc3ca013")
 		)
 		(pin "2"
-			(uuid "4fac8b6b-b0a2-4319-8dbf-2e4c72e19130")
+			(uuid "0d98c2ff-fb71-4aea-8245-8909b7f321c7")
 		)
 		(instances
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5928,6 +7004,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_10")
 		(lib_id "Device:R")
 		(at 74.93 161.29 90)
 		(mirror x)
@@ -5950,7 +7027,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 74.93 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,86 +7080,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 29.21 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "511785f2-b137-43c7-9e6e-b95d956b7d06")
-		(property "Reference" "C6"
-			(at 29.21 103.6964 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 29.21 106.2364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 109.5248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a6fa201-9d83-48ec-ae9b-bbe805b076bb")
-		)
-		(pin "2"
-			(uuid "a39ffc7f-454c-4625-aae0-98bec5b9c72e")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6503,6 +7500,88 @@
 		)
 	)
 	(symbol
+		(lib_name "R_10")
+		(lib_id "Device:R")
+		(at 91.44 161.29 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614d1bda-d58a-4294-9c0a-f8cbcc3b7ad6")
+		(property "Reference" "R19"
+			(at 91.44 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 91.44 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 159.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e58f2bd6-e158-43cc-9edd-e39a6f5c8dfc")
+		)
+		(pin "2"
+			(uuid "0a71eacd-c909-44b6-8e2e-6c0eb198293a")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_2")
 		(lib_id "Device:C")
 		(at 35.56 88.9 0)
@@ -6737,28 +7816,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e799867-4c0e-4684-b8e0-08cb9e399cf2")
+			(uuid "9e799867-4c0e-4684-b8e0-08cb9e399cf3")
 		)
 		(pin "6"
-			(uuid "89a0e6e0-baa0-471c-9518-388f11aae968")
+			(uuid "89a0e6e0-baa0-471c-9518-388f11aae969")
 		)
 		(pin "5"
-			(uuid "a86288eb-d882-4ce1-96df-9f2872039f46")
+			(uuid "a86288eb-d882-4ce1-96df-9f2872039f47")
 		)
 		(pin "7"
-			(uuid "b161a044-348c-4b07-a93d-518366a1ce4a")
+			(uuid "b161a044-348c-4b07-a93d-518366a1ce4b")
 		)
 		(pin "4"
-			(uuid "bedb379a-c07d-4f1c-ae6d-ba9cb8d52f4c")
+			(uuid "bedb379a-c07d-4f1c-ae6d-ba9cb8d52f4d")
 		)
 		(pin "8"
-			(uuid "42489b02-99f3-41a7-a91c-eef5d0cbadfe")
+			(uuid "42489b02-99f3-41a7-a91c-eef5d0cbadff")
 		)
 		(pin "1"
-			(uuid "e80cd8de-df0b-4a8a-8069-5c6367a493c5")
+			(uuid "e80cd8de-df0b-4a8a-8069-5c6367a493c6")
 		)
 		(pin "3"
-			(uuid "e7536e44-70d3-42b1-b1cb-22808d9ee729")
+			(uuid "e7536e44-70d3-42b1-b1cb-22808d9ee72a")
 		)
 		(instances
 			(project "Electrocardiograma"
@@ -7111,170 +8190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 113.03 172.72 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fae9729-f315-4bf0-85a9-53f6616d4711")
-		(property "Reference" "R21"
-			(at 113.03 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 113.03 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 170.942 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30aa89aa-ad52-4e08-a79b-df147c1f4558")
-		)
-		(pin "2"
-			(uuid "b651b9a5-58ad-4d64-9ce7-24338f038108")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 163.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff0b673-09be-4310-a7f5-f5b403c33821")
-		(property "Reference" "R14"
-			(at 45.72 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 45.72 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.038 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d4b5bf6-20a1-48a9-8818-d988a6d9d6c9")
-		)
-		(pin "2"
-			(uuid "2a750d14-44da-4fd8-9a76-766c0275e09f")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 254 54.61 0)
 		(mirror y)
@@ -7376,6 +8291,87 @@
 		)
 	)
 	(symbol
+		(lib_name "C_2")
+		(lib_id "Device:C")
+		(at 29.21 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88eabed8-8570-4fa8-bf49-5db26b772208")
+		(property "Reference" "C6"
+			(at 29.21 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 29.21 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 109.5248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f2f54cc-0531-4a37-a846-cbc7ec94817e")
+		)
+		(pin "2"
+			(uuid "d3fe88f8-6492-4f24-93e1-3c8d8734cadb")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 116.84 36.83 180)
 		(unit 1)
@@ -7448,87 +8444,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a7422d3-95d4-4f9d-b99c-ceb90a500628")
-		(property "Reference" "R20"
-			(at 109.22 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 109.22 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.902 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf2a1bab-43a5-4100-9ece-9d547c5df9c3")
-		)
-		(pin "2"
-			(uuid "cfa846ee-b2d5-43d3-b0f2-cdfc33def264")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7615,7 +8530,7 @@
 	(symbol
 		(lib_name "R_3")
 		(lib_id "Device:R")
-		(at 35.56 118.11 0)
+		(at 35.56 116.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7627,7 +8542,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eefaeb9-8e8c-4236-8bc3-33ae556c7f2e")
 		(property "Reference" "R6"
-			(at 33.02 116.8399 0)
+			(at 33.02 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7638,7 +8553,7 @@
 			)
 		)
 		(property "Value" "31K6"
-			(at 33.02 119.3799 0)
+			(at 33.02 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7649,7 +8564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.338 118.11 90)
+			(at 37.338 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7660,7 +8575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 118.11 0)
+			(at 35.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7671,7 +8586,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 118.11 0)
+			(at 35.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,6 +8692,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
 		(lib_id "Device:C")
 		(at 27.94 158.75 90)
 		(unit 1)
@@ -7798,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 27.94 154.4964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,88 +9055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 97.79 167.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adb651a4-6e0d-42a1-85ab-c8009ade05c0")
-		(property "Reference" "C12"
-			(at 101.6 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C"
-			(at 101.6 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.8248 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b5995e2-0bb9-488e-b19a-614ea1c327a6")
-		)
-		(pin "2"
-			(uuid "df79b3ab-d67b-40df-a17b-5c4f9d6c3cef")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "R_7")
 		(lib_id "Device:R")
 		(at 59.69 170.18 90)
 		(mirror x)
@@ -8243,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27K"
 			(at 59.69 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,6 +9215,87 @@
 		)
 	)
 	(symbol
+		(lib_name "R_6")
+		(lib_id "Device:R")
+		(at 41.91 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b49dd409-e3ae-4bde-b1b8-980d3ab42331")
+		(property "Reference" "R14"
+			(at 41.91 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33K"
+			(at 41.91 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7171c4f-dbbf-4e5e-90e9-e4cd982726b6")
+		)
+		(pin "2"
+			(uuid "8dba2e7a-f2cb-4e14-8943-547f4f161c5a")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 220.98 54.61 0)
 		(unit 1)
@@ -8462,6 +9378,87 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 41.91 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf19e05d-f53d-4acb-96bb-4b582844f9d0")
+		(property "Reference" "C10"
+			(at 41.91 151.9564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 41.91 154.4964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 157.7848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "040fe588-e342-4e1b-aee8-780a3114a0b3")
+		)
+		(pin "2"
+			(uuid "a394dac9-6eb1-4489-8dd6-05e553c6e8d2")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 167.64 0)
 		(unit 1)
@@ -8534,6 +9531,88 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_7")
+		(lib_id "Device:R")
+		(at 113.03 172.72 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c87c29fb-d335-4779-8750-322ee3279735")
+		(property "Reference" "R21"
+			(at 113.03 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27K"
+			(at 113.03 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 170.942 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85063086-3675-4551-8a03-99a6d576671e")
+		)
+		(pin "2"
+			(uuid "db7245ef-ef1f-4985-bac6-620710ee5967")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8623,7 +9702,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 144.78 166.37 0)
+		(at 114.3 102.87 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -8634,7 +9713,7 @@
 		(dnp no)
 		(uuid "ccf061e7-8bef-45f0-9ab8-97bb62f66f19")
 		(property "Reference" "U3"
-			(at 144.78 176.53 0)
+			(at 114.3 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8644,7 +9723,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 144.78 173.99 0)
+			(at 114.3 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8654,7 +9733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 166.37 0)
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +9744,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 144.78 166.37 0)
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +9755,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 144.78 166.37 0)
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,8 +9799,9 @@
 		)
 	)
 	(symbol
+		(lib_name "R_11")
 		(lib_id "Device:R")
-		(at 144.78 153.67 90)
+		(at 114.3 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8732,7 +9812,7 @@
 		(fields_autoplaced yes)
 		(uuid "cec7ddc9-7500-4f3c-9384-79b1b7a1540f")
 		(property "Reference" "R13"
-			(at 144.78 147.32 90)
+			(at 114.3 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8741,8 +9821,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 144.78 149.86 90)
+		(property "Value" "3K8"
+			(at 114.3 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8752,7 +9832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 155.448 90)
+			(at 114.3 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 153.67 0)
+			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +9854,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 153.67 0)
+			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +10142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 168.91 0)
+		(at 105.41 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9073,7 +10153,7 @@
 		(fields_autoplaced yes)
 		(uuid "d14dd45b-5042-41f1-9db8-1e08c194bb03")
 		(property "Reference" "#PWR016"
-			(at 135.89 175.26 0)
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +10164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 173.99 0)
+			(at 105.41 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9094,7 +10174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 168.91 0)
+			(at 105.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9105,7 +10185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 168.91 0)
+			(at 105.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9116,7 +10196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 168.91 0)
+			(at 105.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,84 +10382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daa93363-583f-4268-9b5b-bbcf90893e4b")
-		(property "Reference" "#PWR019"
-			(at 53.34 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68c958b6-424d-4475-ae73-99339c14f2bd")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 40.64 66.04 90)
 		(mirror x)
@@ -9454,86 +10456,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1cd39ae-829a-4987-b4a0-275043bcb664")
-		(property "Reference" "C7"
-			(at 50.8 103.6964 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 50.8 106.2364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 109.5248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d12c303-b758-42d1-97da-f6990de935fa")
-		)
-		(pin "2"
-			(uuid "48d58d40-a652-4faf-96d7-4fa419822008")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9845,115 +10767,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e799867-4c0e-4684-b8e0-08cb9e399cf2")
+			(uuid "9e799867-4c0e-4684-b8e0-08cb9e399cf4")
 		)
 		(pin "6"
-			(uuid "89a0e6e0-baa0-471c-9518-388f11aae968")
+			(uuid "89a0e6e0-baa0-471c-9518-388f11aae96a")
 		)
 		(pin "5"
-			(uuid "a86288eb-d882-4ce1-96df-9f2872039f46")
+			(uuid "a86288eb-d882-4ce1-96df-9f2872039f48")
 		)
 		(pin "7"
-			(uuid "b161a044-348c-4b07-a93d-518366a1ce4a")
+			(uuid "b161a044-348c-4b07-a93d-518366a1ce4c")
 		)
 		(pin "4"
-			(uuid "bedb379a-c07d-4f1c-ae6d-ba9cb8d52f4c")
+			(uuid "bedb379a-c07d-4f1c-ae6d-ba9cb8d52f4e")
 		)
 		(pin "8"
-			(uuid "42489b02-99f3-41a7-a91c-eef5d0cbadfe")
+			(uuid "42489b02-99f3-41a7-a91c-eef5d0cbae00")
 		)
 		(pin "1"
-			(uuid "e80cd8de-df0b-4a8a-8069-5c6367a493c5")
+			(uuid "e80cd8de-df0b-4a8a-8069-5c6367a493c7")
 		)
 		(pin "3"
-			(uuid "e7536e44-70d3-42b1-b1cb-22808d9ee729")
+			(uuid "e7536e44-70d3-42b1-b1cb-22808d9ee72b")
 		)
 		(instances
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 161.29 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f573c4a9-ab20-4969-9f61-c80991d88e17")
-		(property "Reference" "R19"
-			(at 91.44 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 91.44 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 159.512 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ebc6bd0-cabc-491f-9eba-a2359dbd4115")
-		)
-		(pin "2"
-			(uuid "0acde872-d5e5-4844-9fdb-1dcd9593947c")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R19")
-					(unit 1)
 				)
 			)
 		)

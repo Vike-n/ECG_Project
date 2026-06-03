@@ -666,7 +666,7 @@
         "uuid": "daa88958-acc8-459e-83b6-465edaf551be"
       }
     ],
-    "used_designators": "U2-9,SW2,R16,R18,R20,R22-25,J2-3,C7,#PWR13,#PWR17,D1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

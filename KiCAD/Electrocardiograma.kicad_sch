@@ -20,29 +20,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 3.81 3.175 0)
+			(property "Reference" "U1"
+				(at 12.7 6.4202 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "INA128"
-				(at 3.81 -3.175 0)
+			(property "Value" "INA823DT"
+				(at 12.7 3.8802 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -65,6 +63,17 @@
 				)
 			)
 			(property "Description" "Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "296-INA630DDFRCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10421,7 +10430,7 @@
 				)
 			)
 		)
-		(property "Value" "INA630"
+		(property "Value" "INA823DT"
 			(at 129.54 25.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10431,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 119.38 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10464,7 +10473,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-INA630DDFRCT-ND"
+		(property "DigiKey" "296-INA823DGKTCT-ND"
 			(at 116.84 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10677,46 +10686,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c5")
+			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c6")
 		)
 		(pin "10"
-			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efb")
+			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efc")
 		)
 		(pin "7"
-			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec3")
+			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec4")
 		)
 		(pin "12"
-			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b5")
+			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b6")
 		)
 		(pin "13"
-			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe0569d")
+			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe0569e")
 		)
 		(pin "1"
 			(uuid "1fa5f670-2679-4cbb-a60c-3991dff34e65")
 		)
 		(pin "5"
-			(uuid "3edf5652-315e-488e-b019-2ad31db5111c")
+			(uuid "3edf5652-315e-488e-b019-2ad31db5111d")
 		)
 		(pin "2"
 			(uuid "f049f4e4-44ad-4f23-a9cc-4c71e67d08b1")
 		)
 		(pin "6"
-			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fb")
+			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fc")
 		)
 		(pin "3"
 			(uuid "b5719d3f-e4a1-401d-adf9-7ee367eca61b")
 		)
 		(pin "9"
-			(uuid "1765e696-d446-43a5-8af9-887ba6830fbe")
+			(uuid "1765e696-d446-43a5-8af9-887ba6830fbf")
 		)
 		(pin "14"
-			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea943")
+			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea944")
 		)
 		(pin "4"
-			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe5")
+			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe6")
 		)
 		(pin "11"
-			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353cc")
+			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353cd")
 		)
 		(instances
 			(project "Electrocardiograma"
@@ -10804,46 +10813,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c5")
+			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c7")
 		)
 		(pin "10"
-			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efb")
+			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efd")
 		)
 		(pin "7"
-			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec3")
+			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec5")
 		)
 		(pin "12"
-			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b5")
+			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b7")
 		)
 		(pin "13"
-			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe0569d")
+			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe0569f")
 		)
 		(pin "1"
 			(uuid "8bd6453c-bfdc-415e-bf70-d10fb590807c")
 		)
 		(pin "5"
-			(uuid "3edf5652-315e-488e-b019-2ad31db5111c")
+			(uuid "3edf5652-315e-488e-b019-2ad31db5111e")
 		)
 		(pin "2"
 			(uuid "6e155a42-a572-44a7-8827-c3343eeec54f")
 		)
 		(pin "6"
-			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fb")
+			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fd")
 		)
 		(pin "3"
 			(uuid "47563694-4348-4fe5-9d69-d0a56a02708c")
 		)
 		(pin "9"
-			(uuid "1765e696-d446-43a5-8af9-887ba6830fbe")
+			(uuid "1765e696-d446-43a5-8af9-887ba6830fc0")
 		)
 		(pin "14"
-			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea943")
+			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea945")
 		)
 		(pin "4"
-			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe5")
+			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe7")
 		)
 		(pin "11"
-			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353cc")
+			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353ce")
 		)
 		(instances
 			(project "Electrocardiograma"
@@ -13566,46 +13575,46 @@
 			)
 		)
 		(pin "8"
-			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c5")
+			(uuid "ddbfbacf-388d-496b-803a-7dbe550663c8")
 		)
 		(pin "10"
-			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efb")
+			(uuid "131a1f01-0d2e-4c24-a32e-bf8a7b3d4efe")
 		)
 		(pin "7"
-			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec3")
+			(uuid "ee47150b-95e9-470a-bd6c-6498c14eeec6")
 		)
 		(pin "12"
-			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b5")
+			(uuid "c649fd18-979c-45ab-ac37-d1eb125637b8")
 		)
 		(pin "13"
-			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe0569d")
+			(uuid "f029f54e-f8c8-4ddb-a3a9-b2b64fe056a0")
 		)
 		(pin "1"
 			(uuid "ec473cc2-ace2-432d-b7f5-0f9d0cadceaf")
 		)
 		(pin "5"
-			(uuid "3edf5652-315e-488e-b019-2ad31db5111c")
+			(uuid "3edf5652-315e-488e-b019-2ad31db5111f")
 		)
 		(pin "2"
 			(uuid "cb24c35a-a7bc-4bdf-9568-838bbc1a3af0")
 		)
 		(pin "6"
-			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fb")
+			(uuid "77621fb7-df07-46da-9dd4-8f27d82e94fe")
 		)
 		(pin "3"
 			(uuid "ac6fa927-f369-41cc-b290-a4db9a37d229")
 		)
 		(pin "9"
-			(uuid "1765e696-d446-43a5-8af9-887ba6830fbe")
+			(uuid "1765e696-d446-43a5-8af9-887ba6830fc1")
 		)
 		(pin "14"
-			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea943")
+			(uuid "f9853e6b-342b-463e-a141-7c4cac9ea946")
 		)
 		(pin "4"
-			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe5")
+			(uuid "d7ea0aca-83fd-4cbe-b79d-aafceb350fe8")
 		)
 		(pin "11"
-			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353cc")
+			(uuid "34dd8de4-3b19-40e7-8ef9-c2d1a81353cf")
 		)
 		(instances
 			(project "Electrocardiograma"

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "daa88958-acc8-459e-83b6-465edaf551be")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Modulo Sensado ECG")
 		(date "2026-05-31")

@@ -5076,6 +5076,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SW_DPST_x2_1"
 			(pin_names
 				(offset 0)
@@ -5442,6 +5595,145 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5955,6 +6247,12 @@
 		(uuid "5610d37d-e0cf-4e52-8a3c-a550e30762dc")
 	)
 	(junction
+		(at 270.51 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565941d7-4840-4418-9ec9-ac41cd029cbd")
+	)
+	(junction
 		(at 48.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5965,6 +6263,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c717c91-9be6-4b14-9350-783a616e6b66")
+	)
+	(junction
+		(at 256.54 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777037be-c7ee-45a0-9ae9-fc49756dfdc3")
 	)
 	(junction
 		(at 25.4 149.86)
@@ -6055,6 +6359,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d09eeb64-6cc5-4eaa-9cc4-b3d4e8413272")
+	)
+	(junction
+		(at 270.51 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c7a6b6-1929-4ce5-91c5-e71724f7d868")
 	)
 	(junction
 		(at 245.11 45.72)
@@ -6180,6 +6490,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 63.5) (xy 294.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f592d48-d56d-43c9-8627-0683e9fc31db")
+	)
+	(wire
+		(pts
 			(xy 88.9 134.62) (xy 88.9 152.4)
 		)
 		(stroke
@@ -6217,6 +6537,16 @@
 			(type default)
 		)
 		(uuid "2a40aefb-56c2-42f1-ae02-146cc66fa811")
+	)
+	(wire
+		(pts
+			(xy 241.3 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1a32a1-a429-40b9-b1d0-f10685a507d1")
 	)
 	(wire
 		(pts
@@ -6580,6 +6910,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 137.16) (xy 256.54 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6280df84-8663-400b-933c-fc6b234e1228")
+	)
+	(wire
+		(pts
 			(xy 184.15 53.34) (xy 184.15 54.61)
 		)
 		(stroke
@@ -6637,6 +6977,16 @@
 			(type default)
 		)
 		(uuid "6a9d862a-a422-4f05-a3e2-fd7577938612")
+	)
+	(wire
+		(pts
+			(xy 302.26 45.72) (xy 312.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdb5b79-fcc3-4285-825e-68b0dfec9a25")
 	)
 	(wire
 		(pts
@@ -6840,6 +7190,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 137.16) (xy 256.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a43bda2-8675-4d6c-a72d-2190da1003da")
+	)
+	(wire
+		(pts
 			(xy 219.71 26.67) (xy 229.87 26.67)
 		)
 		(stroke
@@ -6897,6 +7257,16 @@
 			(type default)
 		)
 		(uuid "90ad0450-e1d1-47a0-8d13-7f7e5cfdb32c")
+	)
+	(wire
+		(pts
+			(xy 237.49 144.78) (xy 237.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9109e598-484f-4f4d-9ad8-7542910018b3")
 	)
 	(wire
 		(pts
@@ -6997,6 +7367,16 @@
 			(type default)
 		)
 		(uuid "a18037f7-89bd-42f7-a2b1-7e2603c654d2")
+	)
+	(wire
+		(pts
+			(xy 294.64 63.5) (xy 294.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c78b80-9ff7-410a-830f-f61b4d1090dc")
 	)
 	(wire
 		(pts
@@ -7237,6 +7617,16 @@
 			(type default)
 		)
 		(uuid "cb9900b0-aea6-4c60-97bb-e4a1f99fe042")
+	)
+	(wire
+		(pts
+			(xy 270.51 45.72) (xy 287.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd29abec-de2c-40f7-9b8b-cfb939ed590b")
 	)
 	(wire
 		(pts
@@ -9338,6 +9728,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 294.64 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be61cf7-7ab8-448a-9c3c-3c5ae4f1f87a")
+		(property "Reference" "U3"
+			(at 294.64 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 294.64 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 294.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 297.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 294.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c909b63-8e0e-42a4-90d1-2ed198d40f94")
+		)
+		(pin "2"
+			(uuid "9bb20088-9072-42ae-b65f-3c1ca227c785")
+		)
+		(pin "3"
+			(uuid "6700f8c4-d29c-4079-a8ad-382bc179112b")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 175.26 0)
 		(mirror y)
@@ -11382,8 +11855,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 256.54 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8642fdbc-9511-4a09-be6b-eadd0cc20aad")
+		(property "Reference" "#PWR06"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 256.54 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 256.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2983cf81-ecac-4345-9353-21f68e19ce0e")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-C3-WROOM-02")
-		(at 231.14 133.35 0)
+		(at 256.54 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11394,7 +11945,7 @@
 		(fields_autoplaced yes)
 		(uuid "870d1bec-0cc0-469d-a685-9d57a30bca44")
 		(property "Reference" "U2"
-			(at 233.2833 107.95 0)
+			(at 258.6833 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11405,7 +11956,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02"
-			(at 233.2833 110.49 0)
+			(at 258.6833 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11416,7 +11967,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
-			(at 231.14 132.715 0)
+			(at 256.54 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11427,7 +11978,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
-			(at 231.14 132.715 0)
+			(at 256.54 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11438,7 +11989,7 @@
 			)
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
-			(at 231.14 132.715 0)
+			(at 256.54 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +12000,7 @@
 			)
 		)
 		(property "DigiKey" "1965-ESP32-C3-WROOM-02-H4TR-ND"
-			(at 231.14 133.35 0)
+			(at 256.54 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,6 +12734,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 256.54 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27ad117-d651-4b13-82ab-aa3b46091d02")
+		(property "Reference" "#PWR022"
+			(at 256.54 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 256.54 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 256.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac848699-2e0e-4f9e-9a13-2a5befc74f78")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 49.53 0)
 		(unit 1)
@@ -12456,6 +13085,84 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 312.42 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2a7bae-f5b3-4d5b-adfb-b9625bfa5f19")
+		(property "Reference" "#PWR05"
+			(at 312.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 312.42 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 312.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a83c76da-9a61-485a-b133-a533e50c0007")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

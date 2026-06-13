@@ -3089,6 +3089,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-C3-WROOM-02"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5229,6 +5416,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV1117-50"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV1117-50"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV1117-50_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV1117-50_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SW_DPST_x2_1"
 			(pin_names
 				(offset 0)
@@ -6464,6 +6807,12 @@
 		(color 0 0 0 0)
 		(uuid "e7c7a6b6-1929-4ce5-91c5-e71724f7d868")
 	)
+	(junction
+		(at 345.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ece374d3-1052-4503-97f8-465ce6b67183")
+	)
 	(wire
 		(pts
 			(xy 109.22 34.29) (xy 104.14 34.29)
@@ -6483,6 +6832,16 @@
 			(type default)
 		)
 		(uuid "01c923f0-4aa0-4b28-96c5-efef1f8e8438")
+	)
+	(wire
+		(pts
+			(xy 345.44 50.8) (xy 358.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d41e69-715e-4c6b-854a-143004d8b003")
 	)
 	(wire
 		(pts
@@ -6533,16 +6892,6 @@
 			(type default)
 		)
 		(uuid "0f449bce-8a5c-43b9-a783-d3aeb6e827e0")
-	)
-	(wire
-		(pts
-			(xy 304.8 45.72) (xy 330.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe5d39f-8be2-418f-bec9-d77ca02a8257")
 	)
 	(wire
 		(pts
@@ -7026,6 +7375,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 43.18) (xy 316.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c546058-077c-4537-8181-a89954cd2451")
+	)
+	(wire
+		(pts
 			(xy 298.45 176.53) (xy 322.58 176.53)
 		)
 		(stroke
@@ -7143,6 +7502,16 @@
 			(type default)
 		)
 		(uuid "631f3219-561e-42bc-9581-851b3c34a090")
+	)
+	(wire
+		(pts
+			(xy 295.91 43.18) (xy 302.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6360bba8-4604-4084-abed-5fe232960374")
 	)
 	(wire
 		(pts
@@ -7396,6 +7765,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 45.72) (xy 295.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88128401-20ae-4e66-beec-acd4e5fa4fb4")
+	)
+	(wire
+		(pts
 			(xy 57.15 246.38) (xy 52.07 246.38)
 		)
 		(stroke
@@ -7403,16 +7782,6 @@
 			(type default)
 		)
 		(uuid "88359f1f-e1cc-4063-8a38-b18494bfac88")
-	)
-	(wire
-		(pts
-			(xy 304.8 43.18) (xy 314.96 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8161af-5478-4b76-9c58-dca29040dd4c")
 	)
 	(wire
 		(pts
@@ -7776,16 +8145,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 43.18) (xy 330.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca97cf71-18bf-471d-b9f2-742f76f06b83")
-	)
-	(wire
-		(pts
 			(xy 69.85 163.83) (xy 69.85 166.37)
 		)
 		(stroke
@@ -7843,6 +8202,16 @@
 			(type default)
 		)
 		(uuid "cfbb57e5-d654-49fa-9a51-ae0716d3f4fd")
+	)
+	(wire
+		(pts
+			(xy 295.91 50.8) (xy 345.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d176a617-5277-4b5d-89c4-db215a51e6c2")
 	)
 	(wire
 		(pts
@@ -7923,6 +8292,16 @@
 			(type default)
 		)
 		(uuid "dca422eb-9aa9-4e99-93e7-4fc3ca585a05")
+	)
+	(wire
+		(pts
+			(xy 323.85 43.18) (xy 337.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb929ac-2788-413a-a000-1c13701e6855")
 	)
 	(wire
 		(pts
@@ -8063,6 +8442,16 @@
 			(type default)
 		)
 		(uuid "f042983b-90e9-4a8b-b1ad-8ee678ed4f80")
+	)
+	(wire
+		(pts
+			(xy 353.06 43.18) (xy 358.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0af176c-2e5d-490d-87d8-d68a8ce7b608")
 	)
 	(wire
 		(pts
@@ -8962,7 +9351,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 330.2 45.72 180)
+		(at 358.14 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8973,7 +9362,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e8e16e2-2fc4-4d0f-8d13-365161fb6364")
 		(property "Reference" "#PWR02"
-			(at 330.2 41.91 0)
+			(at 358.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +9373,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 330.2 50.8 0)
+			(at 358.14 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8994,7 +9383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 45.72 0)
+			(at 358.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 45.72 0)
+			(at 358.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 330.2 45.72 0)
+			(at 358.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10795,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 299.72 43.18 0)
+		(at 290.83 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10417,7 +10806,7 @@
 		(fields_autoplaced yes)
 		(uuid "4800ae71-b082-44fa-943b-87728b2758e1")
 		(property "Reference" "J2"
-			(at 300.355 38.1 0)
+			(at 291.465 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10427,7 +10816,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 300.355 40.64 0)
+			(at 291.465 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10437,7 +10826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 43.18 0)
+			(at 290.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +10837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 43.18 0)
+			(at 290.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10459,7 +10848,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 299.72 43.18 0)
+			(at 290.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +10859,7 @@
 			)
 		)
 		(property "DigiKey" "455-B2B-XH-A-ND"
-			(at 299.72 43.18 0)
+			(at 290.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10576,7 +10965,7 @@
 	(symbol
 		(lib_name "SW_DPST_x2_1")
 		(lib_id "Switch:SW_DPST_x2")
-		(at 346.71 45.72 0)
+		(at 320.04 34.29 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10587,7 +10976,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e1d3c57-4f7c-4bed-95f0-221e985bf9b6")
 		(property "Reference" "SW1"
-			(at 346.71 39.37 0)
+			(at 320.04 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10597,7 +10986,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 346.71 41.91 0)
+			(at 320.04 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10607,7 +10996,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-			(at 346.71 45.72 0)
+			(at 320.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +11007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 45.72 0)
+			(at 320.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +11018,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 346.71 45.72 0)
+			(at 320.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,7 +11029,7 @@
 			)
 		)
 		(property "DigiKey" "2223-SLW-129956-4A-RA-N-D-ND"
-			(at 346.71 45.72 0)
+			(at 320.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11790,7 +12179,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST_x2")
-		(at 320.04 43.18 0)
+		(at 307.34 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11801,7 +12190,7 @@
 		(fields_autoplaced yes)
 		(uuid "701b41f5-5052-4c7b-9e20-2de1e9b5b46f")
 		(property "Reference" "SW1"
-			(at 320.04 36.83 0)
+			(at 307.34 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11811,7 +12200,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 320.04 39.37 0)
+			(at 307.34 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11821,7 +12210,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-			(at 320.04 43.18 0)
+			(at 307.34 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11832,7 +12221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 43.18 0)
+			(at 307.34 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11843,7 +12232,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 320.04 43.18 0)
+			(at 307.34 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +12243,7 @@
 			)
 		)
 		(property "DigiKey" "2223-SLW-129956-4A-RA-N-D-ND"
-			(at 320.04 43.18 0)
+			(at 307.34 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,7 +13744,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 330.2 43.18 0)
+		(at 358.14 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13366,7 +13755,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b5789fd-9851-4344-b566-792aa621a2cf")
 		(property "Reference" "#PWR01"
-			(at 330.2 46.99 0)
+			(at 358.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13377,7 +13766,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 330.2 38.1 0)
+			(at 358.14 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13387,7 +13776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 43.18 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13398,7 +13787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 43.18 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13409,7 +13798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 330.2 43.18 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13972,6 +14361,108 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 320.04 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc5bba0-7b6a-44ca-ae51-5dce6ae38cb1")
+		(property "Reference" "D2"
+			(at 320.04 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 320.04 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 320.04 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56cb4b34-5cc6-469c-8c42-f5de01d9bc68")
+		)
+		(pin "2"
+			(uuid "51cf9bfc-0c62-4bed-bf7b-653e4bdc9dd5")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15645,6 +16136,89 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV1117-50")
+		(at 345.44 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d516aab1-0a63-4ba9-8d8d-4ac77c0ff5c9")
+		(property "Reference" "U6"
+			(at 345.44 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-50"
+			(at 345.44 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 345.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 345.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 345.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab0a1d42-335e-458d-8809-1ccb6e2daac1")
+		)
+		(pin "3"
+			(uuid "ffceedd4-0181-400e-92f0-969665f80c6a")
+		)
+		(pin "1"
+			(uuid "2a60f231-584e-470c-92c8-b33f6724125d")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "U6")
 					(unit 1)
 				)
 			)

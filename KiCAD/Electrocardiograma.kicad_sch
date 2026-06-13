@@ -7,7 +7,7 @@
 	(title_block
 		(title "Modulo Sensado ECG")
 		(date "2026-06-05")
-		(rev "0004")
+		(rev "0005")
 		(company "Escobar-Ortega")
 	)
 	(lib_symbols
@@ -5263,7 +5263,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Regulator_Linear:TLV1117-33"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5279,7 +5282,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
+			(property "Value" "TLV1117-33"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5290,8 +5293,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5301,8 +5304,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5312,7 +5315,7 @@
 					)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5334,7 +5337,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5345,7 +5348,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
+			(symbol "TLV1117-33_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -5358,7 +5361,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
+			(symbol "TLV1117-33_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -5416,9 +5419,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV1117-50"
+		(symbol "Regulator_Linear:TLV1117-ADJ"
 			(pin_names
-				(offset 0.254)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5435,7 +5438,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV1117-50"
+			(property "Value" "TLV1117-ADJ"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5468,7 +5471,7 @@
 					)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(property "Description" "800mA Low-Dropout Linear Regulator, adjustable output, TO-220/TO-252/TO-263/SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5479,7 +5482,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "ki_keywords" "linear regulator ldo adjustable positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5501,7 +5504,7 @@
 					)
 				)
 			)
-			(symbol "TLV1117-50_0_1"
+			(symbol "TLV1117-ADJ_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -5514,11 +5517,11 @@
 					)
 				)
 			)
-			(symbol "TLV1117-50_1_1"
-				(pin power_in line
+			(symbol "TLV1117-ADJ_1_1"
+				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6580,6 +6583,12 @@
 		(uuid "07ff763d-9554-47fa-b47c-6dcdf6e59cb9")
 	)
 	(junction
+		(at 335.28 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a0e9bb-f7cf-4362-bceb-40f6d0f14315")
+	)
+	(junction
 		(at 316.23 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6628,6 +6637,12 @@
 		(uuid "21e0755c-4dfb-4f14-8967-84d469849b1f")
 	)
 	(junction
+		(at 386.08 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "269c540b-b5e7-4207-8311-42e1ffc223ff")
+	)
+	(junction
 		(at 48.26 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6638,6 +6653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e4e1e93-4206-4f62-ad72-e1ef88091f13")
+	)
+	(junction
+		(at 381 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e37e84-999e-4037-ad74-95f1d59bd4c8")
 	)
 	(junction
 		(at 257.81 72.39)
@@ -6700,12 +6721,6 @@
 		(uuid "5610d37d-e0cf-4e52-8a3c-a550e30762dc")
 	)
 	(junction
-		(at 342.9 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "565941d7-4840-4418-9ec9-ac41cd029cbd")
-	)
-	(junction
 		(at 48.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6716,6 +6731,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c717c91-9be6-4b14-9350-783a616e6b66")
+	)
+	(junction
+		(at 358.14 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7218862a-9467-47b4-ae41-e1952ccd6743")
 	)
 	(junction
 		(at 25.4 149.86)
@@ -6802,16 +6823,10 @@
 		(uuid "c4cae76d-49ef-4b04-8702-21900bada45e")
 	)
 	(junction
-		(at 342.9 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7c7a6b6-1929-4ce5-91c5-e71724f7d868")
-	)
-	(junction
 		(at 345.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ece374d3-1052-4503-97f8-465ce6b67183")
+		(uuid "e02daf4b-4c90-425a-884e-ef79b1360c3f")
 	)
 	(wire
 		(pts
@@ -6832,16 +6847,6 @@
 			(type default)
 		)
 		(uuid "01c923f0-4aa0-4b28-96c5-efef1f8e8438")
-	)
-	(wire
-		(pts
-			(xy 345.44 50.8) (xy 358.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d41e69-715e-4c6b-854a-143004d8b003")
 	)
 	(wire
 		(pts
@@ -6965,6 +6970,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 45.72) (xy 295.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182e131f-8600-4ac7-9202-1c3f8b40e9ba")
+	)
+	(wire
+		(pts
 			(xy 270.51 44.45) (xy 270.51 46.99)
 		)
 		(stroke
@@ -6982,16 +6997,6 @@
 			(type default)
 		)
 		(uuid "1f543866-07a6-41bd-89df-e7d6b3af2878")
-	)
-	(wire
-		(pts
-			(xy 342.9 81.28) (xy 367.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f592d48-d56d-43c9-8627-0683e9fc31db")
 	)
 	(wire
 		(pts
@@ -7255,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 50.8) (xy 381 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7c7a59-86a7-4f63-b1e8-9beb7a726cbc")
+	)
+	(wire
+		(pts
 			(xy 38.1 87.63) (xy 34.29 87.63)
 		)
 		(stroke
@@ -7262,6 +7277,16 @@
 			(type default)
 		)
 		(uuid "3ba4770c-c01b-4b38-a5e1-7534464caca5")
+	)
+	(wire
+		(pts
+			(xy 335.28 43.18) (xy 335.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbf89d5-fd85-4e7c-a0cb-89bc455c9bdb")
 	)
 	(wire
 		(pts
@@ -7515,6 +7540,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 50.8) (xy 373.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b60a5c-7bd6-46ab-a633-b96b86c2936c")
+	)
+	(wire
+		(pts
 			(xy 228.6 72.39) (xy 228.6 73.66)
 		)
 		(stroke
@@ -7555,7 +7590,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 63.5) (xy 384.81 63.5)
+			(xy 353.06 43.18) (xy 358.14 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7765,16 +7800,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 45.72) (xy 295.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88128401-20ae-4e66-beec-acd4e5fa4fb4")
-	)
-	(wire
-		(pts
 			(xy 57.15 246.38) (xy 52.07 246.38)
 		)
 		(stroke
@@ -7795,6 +7820,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 50.8) (xy 358.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b462968-5079-4f74-a3c0-a9209ae0bc06")
+	)
+	(wire
+		(pts
 			(xy 257.81 80.01) (xy 257.81 72.39)
 		)
 		(stroke
@@ -7802,6 +7837,16 @@
 			(type default)
 		)
 		(uuid "8cbef9c8-28c8-4929-96da-c3efa6d010b7")
+	)
+	(wire
+		(pts
+			(xy 335.28 33.02) (xy 363.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e35dc4c-d184-4d33-8080-6b03a3c5bbca")
 	)
 	(wire
 		(pts
@@ -7842,6 +7887,16 @@
 			(type default)
 		)
 		(uuid "966ef37a-ff56-48f3-8260-0b859232c8e4")
+	)
+	(wire
+		(pts
+			(xy 381 50.8) (xy 386.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6e7c5f-698a-44cc-a054-7e461aa9ec19")
 	)
 	(wire
 		(pts
@@ -7902,16 +7957,6 @@
 			(type default)
 		)
 		(uuid "a18037f7-89bd-42f7-a2b1-7e2603c654d2")
-	)
-	(wire
-		(pts
-			(xy 367.03 81.28) (xy 367.03 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c78b80-9ff7-410a-830f-f61b4d1090dc")
 	)
 	(wire
 		(pts
@@ -8035,6 +8080,26 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 33.02) (xy 363.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583e0ba-fd62-47c2-8efe-b40d1f2dace1")
+	)
+	(wire
+		(pts
+			(xy 295.91 50.8) (xy 345.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d2bc12-634f-45d7-94a5-b032429bfb09")
+	)
+	(wire
+		(pts
 			(xy 29.21 48.26) (xy 29.21 54.61)
 		)
 		(stroke
@@ -8092,6 +8157,26 @@
 			(type default)
 		)
 		(uuid "bdec7be3-5020-4b27-b7f6-939c8dd808a0")
+	)
+	(wire
+		(pts
+			(xy 335.28 43.18) (xy 337.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf783cf9-6347-44dc-b647-ac70706bee63")
+	)
+	(wire
+		(pts
+			(xy 386.08 43.18) (xy 388.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09a775b-9774-42d8-8f42-d26f38a06a26")
 	)
 	(wire
 		(pts
@@ -8165,16 +8250,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 63.5) (xy 359.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd29abec-de2c-40f7-9b8b-cfb939ed590b")
-	)
-	(wire
-		(pts
 			(xy 78.74 66.04) (xy 63.5 66.04)
 		)
 		(stroke
@@ -8202,16 +8277,6 @@
 			(type default)
 		)
 		(uuid "cfbb57e5-d654-49fa-9a51-ae0716d3f4fd")
-	)
-	(wire
-		(pts
-			(xy 295.91 50.8) (xy 345.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d176a617-5277-4b5d-89c4-db215a51e6c2")
 	)
 	(wire
 		(pts
@@ -8275,6 +8340,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 43.18) (xy 368.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88a0b69-afaa-417c-97f3-32788421b5a3")
+	)
+	(wire
+		(pts
 			(xy 82.55 29.21) (xy 82.55 52.07)
 		)
 		(stroke
@@ -8282,6 +8357,16 @@
 			(type default)
 		)
 		(uuid "d9e93d96-7a9a-4825-93df-adcc49824feb")
+	)
+	(wire
+		(pts
+			(xy 373.38 58.42) (xy 381 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da67e0a1-4513-4dd4-85fe-75695080c1ce")
 	)
 	(wire
 		(pts
@@ -8295,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 43.18) (xy 337.82 43.18)
+			(xy 323.85 43.18) (xy 335.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8415,6 +8500,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 50.8) (xy 373.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed5fbf4-e9c6-4f85-9891-205db87bbec8")
+	)
+	(wire
+		(pts
 			(xy 330.2 64.77) (xy 330.2 63.5)
 		)
 		(stroke
@@ -8445,7 +8540,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 43.18) (xy 358.14 43.18)
+			(xy 383.54 43.18) (xy 386.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8612,6 +8707,16 @@
 			(justify left bottom)
 		)
 		(uuid "0057236c-1aea-403d-8d66-9d0739f3dedf")
+	)
+	(label "Sensing_Out"
+		(at 71.12 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "031f6ec5-6a81-4cbd-81be-83abae254e96")
 	)
 	(label "LPF_out"
 		(at 35.56 256.54 180)
@@ -8805,7 +8910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 247.65 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8923,14 +9028,15 @@
 				)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 270.51 52.07 0)
+		(property "Value" "-BATT_REG"
+			(at 273.05 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9011,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 45.72 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -9103,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +9396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.012 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -9359,7 +9465,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e8e16e2-2fc4-4d0f-8d13-365161fb6364")
 		(property "Reference" "#PWR02"
 			(at 358.14 46.99 0)
@@ -9372,14 +9477,15 @@
 				)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 358.14 55.88 0)
+		(property "Value" "-BATT_REG"
+			(at 352.552 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9462,7 +9568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 316.23 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9556,7 +9662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 53.6448 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -9648,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.02 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -9869,7 +9975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 270.51 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9961,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 52.07 198.4248 0)
 			(hide yes)
 			(show_name no)
@@ -10043,14 +10149,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 116.84 16.51 0)
+		(property "Value" "+5.0V"
+			(at 119.38 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10132,7 +10239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 50.038 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -10407,89 +10514,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 367.03 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be61cf7-7ab8-448a-9c3c-3c5ae4f1f87a")
-		(property "Reference" "U3"
-			(at 367.03 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 367.03 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 367.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 369.57 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 367.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c909b63-8e0e-42a4-90d1-2ed198d40f94")
-		)
-		(pin "2"
-			(uuid "9bb20088-9072-42ae-b65f-3c1ca227c785")
-		)
-		(pin "3"
-			(uuid "6700f8c4-d29c-4079-a8ad-382bc179112b")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10702,6 +10726,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV1117-ADJ")
+		(at 375.92 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d77927-6df3-4e74-9404-9a07ec67b5c3")
+		(property "Reference" "U6"
+			(at 375.92 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-ADJ"
+			(at 375.92 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 375.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 375.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, adjustable output, TO-220/TO-252/TO-263/SOT-223"
+			(at 375.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-17600-1-ND"
+			(at 375.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f13776fc-47b1-446b-a790-61124252f1f3")
+		)
+		(pin "3"
+			(uuid "445f0b5f-47c8-4ad6-a7ad-1419e4ff2d83")
+		)
+		(pin "1"
+			(uuid "2f15f51c-c55d-4518-a3b6-c5eefc77f8c0")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 54.61 162.56 90)
@@ -10734,7 +10852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 58.42 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -10885,87 +11003,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.27 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d8b2648-2cdb-4ebb-a8e6-c1c4dcf406e4")
-		(property "Reference" "#PWR027"
-			(at 255.27 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3689d65c-a723-42bd-a016-574b747eb7e5")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SW_DPST_x2_1")
 		(lib_id "Switch:SW_DPST_x2")
-		(at 320.04 34.29 0)
+		(at 307.34 34.29 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10976,7 +11016,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e1d3c57-4f7c-4bed-95f0-221e985bf9b6")
 		(property "Reference" "SW1"
-			(at 320.04 27.94 0)
+			(at 307.34 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10986,7 +11026,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 320.04 30.48 0)
+			(at 307.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10996,7 +11036,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-			(at 320.04 34.29 0)
+			(at 307.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11007,7 +11047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 34.29 0)
+			(at 307.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11058,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 320.04 34.29 0)
+			(at 307.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11029,7 +11069,7 @@
 			)
 		)
 		(property "DigiKey" "2223-SLW-129956-4A-RA-N-D-ND"
-			(at 320.04 34.29 0)
+			(at 307.34 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +11232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -11675,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 48.26 209.042 90)
 			(hide yes)
 			(show_name no)
@@ -12024,7 +12064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 31.75 209.042 90)
 			(hide yes)
 			(show_name no)
@@ -12084,6 +12124,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 381 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d9a801-9d4a-40b6-a5ed-825f3bfe0825")
+		(property "Reference" "R32"
+			(at 383.54 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "453"
+			(at 383.54 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 379.222 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 381 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-453CRCT-ND"
+			(at 381 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f23c033-8b53-4d4c-bb49-de7eea5b634e")
+		)
+		(pin "1"
+			(uuid "7fc67d06-5cc7-4aa0-86ad-7cc529dc0975")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_2")
 		(lib_id "Device:C")
 		(at 39.37 140.97 0)
@@ -12118,7 +12251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 40.3352 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12172,6 +12305,85 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 255.27 175.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf65cd7-5a4e-4199-9c28-be3522f593e1")
+		(property "Reference" "#PWR028"
+			(at 255.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT_REG"
+			(at 257.81 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 255.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbfc8977-1a50-46b8-a5dd-dd6683d1caf1")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12308,7 +12520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 68.072 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -12679,7 +12891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 259.842 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -12863,7 +13075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 344.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13290,7 +13502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 72.39 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +13630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 36.83 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -13500,14 +13712,15 @@
 				)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 116.84 41.91 0)
+		(property "Value" "-BATT_REG"
+			(at 119.38 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -13589,7 +13802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.012 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -13683,7 +13896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.562 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +13957,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 358.14 43.18 0)
+		(at 388.62 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13752,10 +13965,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b5789fd-9851-4344-b566-792aa621a2cf")
 		(property "Reference" "#PWR01"
-			(at 358.14 46.99 0)
+			(at 388.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13765,18 +13977,19 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 358.14 38.1 0)
+		(property "Value" "+6.1V"
+			(at 388.62 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 43.18 0)
+			(at 388.62 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +14000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 43.18 0)
+			(at 388.62 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13798,7 +14011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 358.14 43.18 0)
+			(at 388.62 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13856,7 +14069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 41.148 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -13938,14 +14151,15 @@
 				)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 337.82 217.17 0)
+		(property "Value" "-BATT_REG"
+			(at 340.36 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14027,7 +14241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -14119,7 +14333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.75 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -14213,7 +14427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 46.482 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -14307,7 +14521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 283.972 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -14470,7 +14684,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 384.81 63.5 0)
+		(at 358.14 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14481,7 +14695,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad2a7bae-f5b3-4d5b-adfb-b9625bfa5f19")
 		(property "Reference" "#PWR05"
-			(at 384.81 67.31 0)
+			(at 358.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14492,7 +14706,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 384.81 58.42 0)
+			(at 358.14 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14502,7 +14716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 63.5 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14513,7 +14727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 63.5 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 384.81 63.5 0)
+			(at 358.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14580,7 +14794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 107.442 90)
 			(hide yes)
 			(show_name no)
@@ -14753,7 +14967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 61.722 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -14845,7 +15059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 55.88 64.262 90)
 			(hide yes)
 			(show_name no)
@@ -14937,7 +15151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 41.91 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -15006,7 +15220,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b536b2de-0f3e-4ca5-af70-7c9b5bada8b0")
 		(property "Reference" "#PWR013"
 			(at 256.54 44.45 0)
@@ -15019,14 +15232,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 256.54 35.56 0)
+		(property "Value" "+BATT_REG"
+			(at 250.444 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15153,6 +15367,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 386.08 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b640d8-5eec-4e20-87a0-ac00a9aa21e6")
+		(property "Reference" "R31"
+			(at 388.62 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 388.62 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 384.302 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 386.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "RR12P120DCT-ND"
+			(at 386.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b67fdb67-677f-408a-8338-c6c505fec370")
+		)
+		(pin "1"
+			(uuid "5691ec12-31bb-4423-b4fc-b88b5416abe3")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 303.53 72.39 0)
 		(unit 1)
@@ -15186,7 +15493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 303.53 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15279,7 +15586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 290.83 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15371,7 +15678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 45.72 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -15541,7 +15848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 69.85 220.472 90)
 			(hide yes)
 			(show_name no)
@@ -15635,7 +15942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 270.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15725,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 30.988 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -15819,7 +16126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 271.272 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -16004,7 +16311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 49.2252 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16142,89 +16449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV1117-50")
-		(at 345.44 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d516aab1-0a63-4ba9-8d8d-4ac77c0ff5c9")
-		(property "Reference" "U6"
-			(at 345.44 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117-50"
-			(at 345.44 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 345.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-			(at 345.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
-			(at 345.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab0a1d42-335e-458d-8809-1ccb6e2daac1")
-		)
-		(pin "3"
-			(uuid "ffceedd4-0181-400e-92f0-969665f80c6a")
-		)
-		(pin "1"
-			(uuid "2a60f231-584e-470c-92c8-b33f6724125d")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 270.51 63.5 0)
 		(unit 1)
@@ -16247,14 +16471,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 270.51 58.42 0)
+		(property "Value" "+6.1V"
+			(at 273.05 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16303,6 +16528,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 255.27 203.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db90d019-11c8-4d29-ad3c-4023480f8673")
+		(property "Reference" "#PWR029"
+			(at 255.27 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT_REG"
+			(at 257.81 204.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 255.27 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bd6a9b5-049b-49aa-970e-c87dcf7854c9")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 66.04 90)
 		(mirror x)
@@ -16334,7 +16638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.64 64.262 90)
 			(hide yes)
 			(show_name no)
@@ -16394,8 +16698,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.27 203.2 0)
+		(lib_id "Regulator_Linear:TLV1117-33")
+		(at 345.44 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16404,9 +16708,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddbc9cf2-1394-4b34-9694-e9e4c1ceb089")
-		(property "Reference" "#PWR023"
-			(at 255.27 209.55 0)
+		(uuid "de0fba2f-8781-4fbb-80aa-4571063997d8")
+		(property "Reference" "U3"
+			(at 345.44 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-33"
+			(at 345.44 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 345.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16416,18 +16740,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 255.27 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 203.2 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 345.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,8 +16751,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 255.27 203.2 0)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 345.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16448,8 +16762,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 203.2 0)
+		(property "DigiKey" "296-21113-1-ND"
+			(at 345.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16458,14 +16772,20 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "e810123c-9438-4414-a6a3-d9237a4a80e6")
+		)
+		(pin "3"
+			(uuid "8f27582e-0994-47a8-84ab-fa601f2950a4")
 		)
 		(pin "1"
-			(uuid "5494d523-8170-4903-a6fa-245eaeced2f4")
+			(uuid "6a7fa275-e7c5-48cd-86bd-3e4562b4df81")
 		)
 		(instances
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "#PWR023")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -16504,7 +16824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.61 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -16586,14 +16906,15 @@
 				)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 270.51 86.36 0)
+		(property "Value" "-BATT_REG"
+			(at 273.05 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16676,7 +16997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 230.378 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -16845,7 +17166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.96 248.158 90)
 			(hide yes)
 			(show_name no)
@@ -16936,7 +17257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 39.37 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17066,7 +17387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 230.378 67.31 90)
 			(hide yes)
 			(show_name no)

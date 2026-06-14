@@ -1,8 +1,8 @@
-# ECG Project | Under Development
+# ECG Proyect | Under Development
 
 This repository contains the hardware design, schematics, and simulation files for an electrocardiogram (ECG) signal acquisition and conditioning system developed for academic purposes.
 
-The system is focused on capturing bio-physiological signals, featuring instrumentation amplification, filtering, and digital processing of the signals. This proyect also covers the power supply and basics protections of the system.
+The system is focused on capturing bio-physiological signals, featuring instrumentation amplification, filtering, and digital processing of the signals. This proyect also covers the power supply and basic protections of the system.
 
 ## Key Features
 
@@ -11,15 +11,15 @@ The system is focused on capturing bio-physiological signals, featuring instrume
   * **High-Pass Filter (HPF):** Removes DC offsets and baseline wandering.
   * **Twin-T Notch Filter:** Attenuates 50Hz powerline interference.
   * **Low-Pass Filter (LPF):** Bessel response stage to minimize phase distortion and high-frequency noise.
-* **Supply** Designed for rechargable batteries featuring portability.  
+* **Supply** Designed for rechargeable batteries to ensure portability.  
 * **ECG Simulations:** Complete validation using LTspice `.asc` models for AC analysis and transient response.
 * **Hardware Layout:** PCB design and schematics built entirely using KiCad.
 
 ## Future Features
-* **ESP 32**
-  * Analog to digital conversion of the sensed signal.
-  * Digital processing.
-  * Wierless transmission to a phone or PC.
+* **ESP32 Integration:**
+  * Analog-to-digital (ADC) conversion of the sensed signal.
+  * Digital signal processing (DSP).
+  * Wireless transmission to a smartphone or PC.
 
 ## Repository Structure
 
@@ -37,4 +37,4 @@ To open and interact with the source files in this repository, you will need:
 
 To replicate or review the project locally, clone this repository:
 ```bash
-git clone [https://github.com/Vike-n/ECG_Project.git](https://github.com/Vike-n/ECG_Project.git)
+git clone https://github.com/Vike-n/ECG_Project.git

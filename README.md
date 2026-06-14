@@ -1,24 +1,40 @@
-# ECG Project
+# ECG Project | Under Development
 
-This repository contains the design, simulation, and implementation of an electrocardiographic (ECG) signal acquisition and processing system developed for academic purposes.
+This repository contains the hardware design, schematics, and simulation files for an electrocardiogram (ECG) signal acquisition and conditioning system developed for academic purposes.
+
+The system is focused on capturing bio-physiological signals, featuring instrumentation amplification, filtering, and digital processing of the signals. This proyect also covers the power supply and basics protections of the system.
 
 ## Key Features
-* **Analog Stage:** Instrumentation and analog filtering (50Hz noise attenuation, high-frequency and sub Hz components).
-* **Simulation:** Circuit modeling performed in LTspice.
-* **Technical Report:** Documentation and plots generated using LaTeX.
 
-* TO DO:
-* **Digital Processing:** Digital filtering and signal conditioning.
+* **Biomedical Instrumentation:** Design optimized for microvolt-level differential heart signals.
+* **Analog Filtering Stage:**
+  * **High-Pass Filter (HPF):** Removes DC offsets and baseline wandering.
+  * **Twin-T Notch Filter:** Attenuates 50Hz powerline interference.
+  * **Low-Pass Filter (LPF):** Bessel response stage to minimize phase distortion and high-frequency noise.
+* **Supply** Designed for rechargable batteries featuring portability.  
+* **ECG Simulations:** Complete validation using LTspice `.asc` models for AC analysis and transient response.
+* **Hardware Layout:** PCB design and schematics built entirely using KiCad.
+
+## Future Features
+* **ESP 32**
+  * Analog to digital conversion of the sensed signal.
+  * Digital processing.
+  * Wierless transmission to a phone or PC.
 
 ## Repository Structure
-* `/spice`: LTspice simulations.
-* `/KiCAD`: Official schematic and PCB desing
-* `/docs`: Project documentation and LaTeX/PDF reports.
 
-## Requirements
-* LTspice (for analog simulations)
-* KiCAD (for PCB design)
-* LaTeX Environment (for viewing and generating reports)
+* `📂 /KiCAD/` Main KiCad project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
+* `📂 Simulation/`: LTspice schematic files (`.asc`) and verification testbenches.
+* `📂 Docs/`: Technical reports, documentation, and asset files.
 
----
-*Project developed as part of the Electronic / Digital Engineering curriculum.*
+## Software Requirements
+
+To open and interact with the source files in this repository, you will need:
+* **KiCad (v6.0 or newer):** For schematics and PCB layout visualization.
+* **LTspice:** For running the analog circuit simulation topologies.
+
+## Clone & Usage
+
+To replicate or review the project locally, clone this repository:
+```bash
+git clone [https://github.com/Vike-n/ECG_Project.git](https://github.com/Vike-n/ECG_Project.git)

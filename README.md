@@ -1,8 +1,8 @@
-# ECG Proyect | Under Development
+# ECG Project | Under Development
 
 This repository contains the hardware design, schematics, and simulation files for an electrocardiogram (ECG) signal acquisition and conditioning system developed for academic purposes.
 
-The system is focused on capturing bio-physiological signals, featuring instrumentation amplification, filtering, and digital processing of the signals. This proyect also covers the power supply and basic protections of the system.
+The system is focused on capturing bio-physiological signals, featuring instrumentation amplification, filtering, and digital processing of the signals. This project also covers the power supply and basic protections of the system.
 
 ## Key Features
 

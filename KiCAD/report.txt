@@ -1,0 +1,24 @@
+Info: Escala X restringida.
+Info: Escala Y restringida.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Cu.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Cu.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Paste.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Paste.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Silkscreen.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Silkscreen.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Mask.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Mask.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-job.gbrjob' creado.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Cu.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Cu.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Paste.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Paste.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Silkscreen.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Silkscreen.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-F_Mask.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-B_Mask.gbr'.
+Trazado a 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber 'C:\Users\Saile\Desktop\Github\ECG_Project\KiCAD\Electrocardiograma-job.gbrjob' creado.
+Info: Listo.
+Info: Listo.

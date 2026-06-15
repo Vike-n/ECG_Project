@@ -9300,7 +9300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 266.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10943,7 +10943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 290.83 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12798,7 +12798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 248.92 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16228,7 +16228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 248.92 199.39 0)
 			(hide yes)
 			(show_name no)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Modulo Sensado ECG")
 		(date "2026-06-05")
-		(rev "0005")
+		(rev "0006")
 		(company "Escobar-Ortega")
 	)
 	(lib_symbols
@@ -6571,6 +6571,12 @@
 		(uuid "00261940-2894-4949-b871-cf968be51022")
 	)
 	(junction
+		(at 316.23 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014d60c1-5ab3-416f-af43-e01df7dc857a")
+	)
+	(junction
 		(at 39.37 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9722,6 +9728,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 316.23 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22452311-2fc2-48bd-a94b-641a7418af6d")
+		(property "Reference" "#PWR023"
+			(at 316.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 310.134 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 316.23 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f95640f3-30ac-4006-9290-4e794939c577")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_2")
 		(lib_id "Device:R")
 		(at 33.02 149.86 90)
@@ -10149,7 +10233,7 @@
 				)
 			)
 		)
-		(property "Value" "+5.0V"
+		(property "Value" "+6.1V"
 			(at 119.38 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15243,7 +15327,7 @@
 				)
 			)
 		)
-		(property "Value" "+BATT_REG"
+		(property "Value" "+BATT"
 			(at 250.444 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)

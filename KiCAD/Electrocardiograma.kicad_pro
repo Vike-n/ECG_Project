@@ -616,6 +616,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -666,7 +678,7 @@
         "uuid": "daa88958-acc8-459e-83b6-465edaf551be"
       }
     ],
-    "used_designators": "#PWR23",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

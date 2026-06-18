@@ -3309,6 +3309,17 @@
 			(uuid "290df196-bb6a-433d-a0fa-d63f017969b6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Modelo3D/54-00174.STEP"
+			(offset
+				(xyz -3 12.5 -5.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -14207,7 +14218,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "69,208"
+		(gr_text "69.208"
 			(at 192.19556 88.10399 90)
 			(layer "Dwgs.User")
 			(uuid "8b35b5d4-8ee0-4a32-b1af-25b5bc2815aa")
@@ -14245,7 +14256,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "56,5"
+		(gr_text "56.5"
 			(at 153.24556 140.40798 0)
 			(layer "Dwgs.User")
 			(uuid "a0590e43-fa01-45cf-bde2-16bf84916657")

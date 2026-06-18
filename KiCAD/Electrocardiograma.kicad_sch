@@ -18205,7 +18205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 345.44 43.18 0)
 			(hide yes)
 			(show_name no)

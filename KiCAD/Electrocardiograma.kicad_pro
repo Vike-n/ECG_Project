@@ -694,7 +694,7 @@
         "uuid": "daa88958-acc8-459e-83b6-465edaf551be"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "R35,R39,J1,D3-4,#PWR32-34,C14",
     "variants": []
   },
   "sheets": [

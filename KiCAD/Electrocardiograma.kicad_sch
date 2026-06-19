@@ -2321,6 +2321,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -3907,6 +4170,332 @@
 						)
 					)
 					(number "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECG:SLW-129956-4A-RA-N-D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SLW-129956-4A-RA-N-D"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SLW-129956-4A-RA-N-D:SW_SLW-129956-4A-RA-N-D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12.9 x 9 x 5.6 mm, 4 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.01"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SLW-129956-4A-RA-N-D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SLW-129956-4A-RA-N-D_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6216,382 +6805,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW_DPST_x2_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_DPST_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -7577,6 +7790,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 228.6) (xy 255.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087aa674-006d-4a40-b66d-e7da689063de")
+	)
+	(wire
+		(pts
 			(xy 273.05 152.4) (xy 273.05 156.21)
 		)
 		(stroke
@@ -7627,6 +7850,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 223.52) (xy 259.08 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f648fd0-5c4b-4eee-8b0d-dc278ca08a9b")
+	)
+	(wire
+		(pts
 			(xy 298.45 179.07) (xy 322.58 179.07)
 		)
 		(stroke
@@ -7654,6 +7887,16 @@
 			(type default)
 		)
 		(uuid "10986e44-ba35-41b7-8436-f6e35209fca7")
+	)
+	(wire
+		(pts
+			(xy 254 226.06) (xy 259.08 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11176b95-5ade-4d4c-90bf-cc6bbf003a13")
 	)
 	(wire
 		(pts
@@ -7707,17 +7950,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 45.72) (xy 295.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182e131f-8600-4ac7-9202-1c3f8b40e9ba")
-	)
-	(wire
-		(pts
-			(xy 271.78 49.53) (xy 271.78 52.07)
+			(xy 238.76 31.75) (xy 238.76 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7734,6 +7967,16 @@
 			(type default)
 		)
 		(uuid "1a9ef50f-22ea-4d87-bfce-89d50ac7655f")
+	)
+	(wire
+		(pts
+			(xy 255.27 229.87) (xy 255.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc4ba38-901e-43b9-905b-82e2cdea7cb4")
 	)
 	(wire
 		(pts
@@ -7897,7 +8140,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 40.64) (xy 275.59 40.64)
+			(xy 247.65 40.64) (xy 242.57 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8197,13 +8440,13 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 43.18) (xy 313.69 43.18)
+			(xy 288.29 50.8) (xy 288.29 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c546058-077c-4537-8181-a89954cd2451")
+		(uuid "4b561c45-0464-4704-b8dc-a4f60512c08f")
 	)
 	(wire
 		(pts
@@ -8337,6 +8580,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 43.18) (xy 313.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607ce436-9c1c-46c6-90d9-73bdcef37b54")
+	)
+	(wire
+		(pts
 			(xy 270.51 71.12) (xy 270.51 72.39)
 		)
 		(stroke
@@ -8354,16 +8607,6 @@
 			(type default)
 		)
 		(uuid "631f3219-561e-42bc-9581-851b3c34a090")
-	)
-	(wire
-		(pts
-			(xy 295.91 43.18) (xy 302.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6360bba8-4604-4084-abed-5fe232960374")
 	)
 	(wire
 		(pts
@@ -8957,16 +9200,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 50.8) (xy 345.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d2bc12-634f-45d7-94a5-b032429bfb09")
-	)
-	(wire
-		(pts
 			(xy 55.88 53.34) (xy 55.88 59.69)
 		)
 		(stroke
@@ -9307,6 +9540,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 43.18) (xy 303.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e94335-79ce-4eff-bb2f-7ca2402de354")
+	)
+	(wire
+		(pts
 			(xy 49.53 109.22) (xy 49.53 110.49)
 		)
 		(stroke
@@ -9527,6 +9770,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 50.8) (xy 345.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b45e3a-4c03-4ce7-8a90-727cd0dbf49c")
+	)
+	(wire
+		(pts
 			(xy 134.62 118.11) (xy 140.97 118.11)
 		)
 		(stroke
@@ -9624,6 +9877,16 @@
 			(type default)
 		)
 		(uuid "ff0f110d-3f7c-47b9-ba0e-5c0601436fb6")
+	)
+	(label "USB_D+"
+		(at 259.08 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0275a36c-ecb3-4469-bcc4-9d2fcaa6f014")
 	)
 	(label "Sensing_Out"
 		(at 72.39 270.51 0)
@@ -9794,6 +10057,16 @@
 			(justify left bottom)
 		)
 		(uuid "af23069e-c339-421c-9e0a-7773e0ee72fb")
+	)
+	(label "USB_D-"
+		(at 259.08 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c768a161-2a8d-4195-aded-6993a6afb2f3")
 	)
 	(label "USB_D-"
 		(at 298.45 204.47 0)
@@ -9974,7 +10247,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 271.78 52.07 180)
+		(at 238.76 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9985,7 +10258,7 @@
 		(fields_autoplaced yes)
 		(uuid "1023826c-ec35-4d72-b919-79c6ec1584da")
 		(property "Reference" "#PWR017"
-			(at 271.78 48.26 0)
+			(at 238.76 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10269,7 @@
 			)
 		)
 		(property "Value" "-BATT_REG"
-			(at 274.32 53.3399 0)
+			(at 236.22 27.9401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10007,7 +10280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 52.07 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 52.07 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +10302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 271.78 52.07 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,7 +10590,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 271.78 40.64 90)
+		(at 238.76 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10328,7 +10601,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a7f5241-de66-4bf8-ba93-32f48c392b90")
 		(property "Reference" "D1"
-			(at 269.24 39.3699 90)
+			(at 236.22 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10339,7 +10612,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 269.24 41.9099 90)
+			(at 236.22 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10350,7 +10623,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 271.78 44.45 0)
+			(at 238.76 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +10634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 44.45 0)
+			(at 238.76 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +10645,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 271.78 40.64 0)
+			(at 238.76 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +10656,7 @@
 			)
 		)
 		(property "DigiKey" "1727-PESD2CAN24XLT-QRCT-ND"
-			(at 271.78 40.64 0)
+			(at 238.76 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +12634,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 290.83 43.18 0)
+		(at 283.21 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12371,7 +12644,7 @@
 		(dnp no)
 		(uuid "4800ae71-b082-44fa-943b-87728b2758e1")
 		(property "Reference" "J2"
-			(at 291.465 38.1 0)
+			(at 283.845 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12381,7 +12654,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 291.465 40.64 0)
+			(at 283.845 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12391,7 +12664,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
-			(at 290.83 43.18 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12402,7 +12675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 43.18 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +12686,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 290.83 43.18 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12424,7 +12697,7 @@
 			)
 		)
 		(property "DigiKey" "455-B2B-XH-A-ND"
-			(at 290.83 43.18 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12445,104 +12718,6 @@
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "J2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SW_DPST_x2_1")
-		(lib_id "Switch:SW_DPST_x2")
-		(at 307.34 34.29 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e1d3c57-4f7c-4bed-95f0-221e985bf9b6")
-		(property "Reference" "SW1"
-			(at 307.34 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPST_x2"
-			(at 307.34 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-			(at 307.34 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 307.34 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "2223-SLW-129956-4A-RA-N-D-ND"
-			(at 307.34 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a6cdad50-c66c-48e0-bf90-ce17eadab632")
-		)
-		(pin "1"
-			(uuid "f7c71f57-3a10-4041-9ed8-10cedcf6afc4")
-		)
-		(pin "2"
-			(uuid "a01323e1-09fd-4abf-b332-37292b7fcb6d")
-		)
-		(pin "3"
-			(uuid "1f91f9c6-3b19-497e-9f00-f931539e9bcb")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "SW1")
-					(unit 2)
 				)
 			)
 		)
@@ -13892,103 +14067,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPST_x2")
-		(at 307.34 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "701b41f5-5052-4c7b-9e20-2de1e9b5b46f")
-		(property "Reference" "SW1"
-			(at 307.34 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPST_x2"
-			(at 307.34 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
-			(at 307.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 307.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "2223-SLW-129956-4A-RA-N-D-ND"
-			(at 307.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "224d9b83-ce5e-4273-ad4c-bd54e500b575")
-		)
-		(pin "2"
-			(uuid "16d42070-eaa3-479d-9cf7-7241d142dbfa")
-		)
-		(pin "1"
-			(uuid "75c447e5-9816-43d0-ac74-734c00c6a197")
-		)
-		(pin "4"
-			(uuid "aff7680c-a9b8-43fd-87e7-9afbf22b8e68")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15456,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89bdd108-2a2f-41e4-9ce1-697be131aa4f")
 		(property "Reference" "#PWR010"
 			(at 143.51 38.1 0)
@@ -15392,7 +15469,7 @@
 			)
 		)
 		(property "Value" "-BATT_REG"
-			(at 146.05 43.1799 0)
+			(at 136.398 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17215,7 +17292,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 280.67 40.64 0)
+		(at 247.65 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17225,7 +17302,7 @@
 		(dnp no)
 		(uuid "b536b2de-0f3e-4ca5-af70-7c9b5bada8b0")
 		(property "Reference" "#PWR013"
-			(at 280.67 44.45 0)
+			(at 247.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17236,7 +17313,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 274.574 36.322 0)
+			(at 244.094 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17247,7 +17324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17258,7 +17335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17269,7 +17346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 280.67 40.64 0)
+			(at 247.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17457,6 +17534,92 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 248.92 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc005afa-b7af-41c5-9077-1c4496f01d81")
+		(property "Reference" "J6"
+			(at 249.555 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 249.555 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 248.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 248.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd7a40b3-2ecd-455d-a77e-172ba10fb3fa")
+		)
+		(pin "1"
+			(uuid "835ef081-2a46-43c4-b51b-7e67897ee766")
+		)
+		(pin "3"
+			(uuid "b07f47ec-8924-4513-b00c-ce9ef3a8e015")
+		)
+		(pin "4"
+			(uuid "88a71da4-f3ca-48ab-ad44-ee889b1a82ee")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -18537,6 +18700,221 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECG:SLW-129956-4A-RA-N-D")
+		(at 295.91 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3eaa337-f940-4bb7-ac15-fceb5e3fb857")
+		(property "Reference" "S1"
+			(at 295.91 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLW-129956-4A-RA-N-D"
+			(at 295.91 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECG:SW_SLW-129956-4A-RA-N-D"
+			(at 295.91 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12.9 x 9 x 5.6 mm, 4 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=eda"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=snap"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey" "SLW-129956-4A-RA-N-D"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 295.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1d9a6108-97b2-4e1b-a29b-4b495e167e57")
+		)
+		(pin "1"
+			(uuid "05b7472f-9fcc-4b9e-88eb-aed77356ec2c")
+		)
+		(pin "3"
+			(uuid "ef3935b7-f46b-4ce9-afa5-8db7805825a6")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -19880,6 +20258,85 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 255.27 229.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee8faf6-eb5a-479a-b806-5fd6918d8f3e")
+		(property "Reference" "#PWR035"
+			(at 255.27 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT_REG"
+			(at 257.81 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2a5fdc7-8a5e-43d6-bfd0-dcb50e271ae8")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

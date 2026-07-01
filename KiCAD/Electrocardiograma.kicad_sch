@@ -7669,12 +7669,6 @@
 		(uuid "82959cb8-10c0-4d11-9f9a-c88574fae1b8")
 	)
 	(junction
-		(at 55.88 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ec8cb8-19c7-435e-82b7-90628d92661d")
-	)
-	(junction
 		(at 53.34 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7758,6 +7752,12 @@
 		(color 0 0 0 0)
 		(uuid "ef8ad471-e73c-4619-90f7-c7fe0c5d8208")
 	)
+	(junction
+		(at 251.46 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd26600-db4b-4f36-896a-449ed9fcc86e")
+	)
 	(wire
 		(pts
 			(xy 135.89 39.37) (xy 130.81 39.37)
@@ -7787,16 +7787,6 @@
 			(type default)
 		)
 		(uuid "07879d3a-20cb-42c7-a47b-018ea26f8be0")
-	)
-	(wire
-		(pts
-			(xy 254 228.6) (xy 255.27 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087aa674-006d-4a40-b66d-e7da689063de")
 	)
 	(wire
 		(pts
@@ -7850,7 +7840,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 223.52) (xy 259.08 223.52)
+			(xy 251.46 223.52) (xy 259.08 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7890,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 226.06) (xy 259.08 226.06)
+			(xy 251.46 226.06) (xy 259.08 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +7950,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 38.1) (xy 90.17 38.1)
+			(xy 54.61 38.1) (xy 90.17 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7970,7 +7960,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 229.87) (xy 255.27 228.6)
+			(xy 251.46 219.71) (xy 251.46 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8317,16 +8307,6 @@
 			(type default)
 		)
 		(uuid "3cbf89d5-fd85-4e7c-a0cb-89bc455c9bdb")
-	)
-	(wire
-		(pts
-			(xy 55.88 40.64) (xy 55.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41209981-d022-40b2-983e-ff6ffecb5455")
 	)
 	(wire
 		(pts
@@ -8717,16 +8697,6 @@
 			(type default)
 		)
 		(uuid "7a03cad4-8ae9-49d4-8aab-439ad5447147")
-	)
-	(wire
-		(pts
-			(xy 54.61 38.1) (xy 55.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0d4890-4320-4687-b1bb-d67eddb9ac44")
 	)
 	(wire
 		(pts
@@ -17541,7 +17511,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 248.92 223.52 0)
+		(at 246.38 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17552,7 +17522,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc005afa-b7af-41c5-9077-1c4496f01d81")
 		(property "Reference" "J6"
-			(at 249.555 215.9 0)
+			(at 247.015 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17562,7 +17532,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 249.555 218.44 0)
+			(at 247.015 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17572,7 +17542,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 248.92 223.52 0)
+			(at 246.38 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17583,7 +17553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 223.52 0)
+			(at 246.38 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17594,7 +17564,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 248.92 223.52 0)
+			(at 246.38 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20265,7 +20235,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 255.27 229.87 180)
+		(at 251.46 220.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20276,7 +20246,7 @@
 		(fields_autoplaced yes)
 		(uuid "fee8faf6-eb5a-479a-b806-5fd6918d8f3e")
 		(property "Reference" "#PWR035"
-			(at 255.27 226.06 0)
+			(at 251.46 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20287,7 +20257,7 @@
 			)
 		)
 		(property "Value" "-BATT_REG"
-			(at 257.81 231.1399 0)
+			(at 254 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20298,7 +20268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 229.87 0)
+			(at 251.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20309,7 +20279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 229.87 0)
+			(at 251.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20320,7 +20290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 255.27 229.87 0)
+			(at 251.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

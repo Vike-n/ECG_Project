@@ -5021,29 +5021,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S1"
-				(at 0.254 -0.508 0)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "SLW-129956-4A-RA-N-D"
-				(at -0.508 5.842 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "ECG:SW_SLW-129956-4A-RA-N-D"
-				(at 0 10.668 0)
+			(property "Footprint" "SLW-129956-4A-RA-N-D:SW_SLW-129956-4A-RA-N-D"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5066,7 +5067,7 @@
 				)
 			)
 			(property "Description" "12.9 x 9 x 5.6 mm, 4 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
-				(at 0 -7.112 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5078,7 +5079,7 @@
 				)
 			)
 			(property "MF" "Same Sky"
-				(at 35.306 -1.524 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5090,7 +5091,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
-				(at 35.052 5.08 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5102,7 +5103,7 @@
 				)
 			)
 			(property "Package" "Package"
-				(at 33.274 1.778 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5114,7 +5115,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 22.606 2.794 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5126,7 +5127,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=eda"
-				(at 1.778 -11.684 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5138,7 +5139,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 -13.462 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5150,7 +5151,7 @@
 				)
 			)
 			(property "PARTREV" "1.01"
-				(at 26.162 5.842 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5162,7 +5163,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=snap"
-				(at 1.016 -9.398 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5173,8 +5174,8 @@
 					(justify bottom)
 				)
 			)
-			(property "DigiKey" "SLW-129956-4A-RA-N-D"
-				(at 1.27 -16.256 0)
+			(property "MP" "SLW-129956-4A-RA-N-D"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5186,7 +5187,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 29.972 9.652 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5198,7 +5199,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Same Sky"
-				(at 24.13 -0.762 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5283,7 +5284,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "NC"
+					(name ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5301,7 +5302,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "IN"
+					(name ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5319,7 +5320,7 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "NA"
+					(name ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5327,44 +5328,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SLW-129956-4A-RA-N-D_1_0"
-				(pin passive line
-					(at 7.62 6.35 180)
-					(length 2.54)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 8.89 180)
-					(length 2.54)
-					(name "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9101,12 +9064,6 @@
 		(uuid "901446b9-27c1-4061-b2b4-e0c5d6eb60e4")
 	)
 	(junction
-		(at 304.8 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9357b1d2-9245-4536-b8f7-50b92e55f11a")
-	)
-	(junction
 		(at 290.83 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9387,16 +9344,6 @@
 			(type default)
 		)
 		(uuid "12dcc4a1-575f-4b40-a3d7-e67a91388cf5")
-	)
-	(wire
-		(pts
-			(xy 304.8 36.83) (xy 303.53 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13978187-f3f2-47f9-9dc9-d0bfd282b262")
 	)
 	(wire
 		(pts
@@ -10690,16 +10637,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 34.29) (xy 304.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d74eb07-e127-4d0b-b1ba-880aa4690215")
-	)
-	(wire
-		(pts
 			(xy 72.39 257.81) (xy 72.39 270.51)
 		)
 		(stroke
@@ -10780,16 +10717,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 34.29) (xy 304.8 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47c2785-91a5-4010-bc0c-6db6a03e70be")
-	)
-	(wire
-		(pts
 			(xy 41.91 210.82) (xy 45.72 210.82)
 		)
 		(stroke
@@ -10827,16 +10754,6 @@
 			(type default)
 		)
 		(uuid "a8cd7fe9-0504-43fd-82af-9ce6da4fc959")
-	)
-	(wire
-		(pts
-			(xy 304.8 33.02) (xy 304.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93bd21b-1185-4e23-91b0-7517312c08a3")
 	)
 	(wire
 		(pts
@@ -22291,7 +22208,7 @@
 		(dnp no)
 		(uuid "d3eaa337-f940-4bb7-ac15-fceb5e3fb857")
 		(property "Reference" "S1"
-			(at 296.164 43.688 0)
+			(at 295.91 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22335,7 +22252,7 @@
 			)
 		)
 		(property "Description" "12.9 x 9 x 5.6 mm, 4 mm Raised Slide Actuator, Right Angle, Through Hole, Slide Switch"
-			(at 295.91 50.292 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22347,7 +22264,7 @@
 			)
 		)
 		(property "MF" "Same Sky"
-			(at 331.216 44.704 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22359,7 +22276,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
-			(at 330.962 38.1 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22371,7 +22288,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 329.184 41.402 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22383,7 +22300,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 318.516 40.386 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22395,7 +22312,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=eda"
-			(at 297.688 54.864 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22407,7 +22324,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 296.164 56.642 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22419,7 +22336,7 @@
 			)
 		)
 		(property "PARTREV" "1.01"
-			(at 322.072 37.338 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22431,7 +22348,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLW-129956-4A-RA-N-D/Same+Sky/view-part/?ref=snap"
-			(at 296.926 52.578 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22443,7 +22360,7 @@
 			)
 		)
 		(property "DigiKey" "SLW-129956-4A-RA-N-D"
-			(at 297.18 59.436 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22455,7 +22372,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 325.882 33.528 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22467,7 +22384,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Same Sky"
-			(at 320.04 43.942 0)
+			(at 295.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22486,12 +22403,6 @@
 		)
 		(pin "3"
 			(uuid "ef3935b7-f46b-4ce9-afa5-8db7805825a6")
-		)
-		(pin "SH2"
-			(uuid "f65f8d5b-0e37-46f5-8ccf-5dcfd8ca7226")
-		)
-		(pin "SH1"
-			(uuid "0a083aaf-d2fc-46e8-8468-9f838594c82c")
 		)
 		(instances
 			(project "Electrocardiograma"
@@ -23263,84 +23174,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 304.8 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb0eb2ee-175f-4831-b337-86b9d240dc90")
-		(property "Reference" "#PWR041"
-			(at 304.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT_REG"
-			(at 310.388 28.702 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 304.8 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa21ee48-8c57-4cbe-84fe-817f045d4ed5")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)

@@ -9179,12 +9179,6 @@
 		(uuid "c4cae76d-49ef-4b04-8702-21900bada45e")
 	)
 	(junction
-		(at 289.56 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce77495b-c667-46be-8085-42e0d24bc8b5")
-	)
-	(junction
 		(at 134.62 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12116,7 +12110,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 300.99 92.71 0)
+		(at 289.56 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12127,7 +12121,7 @@
 		(fields_autoplaced yes)
 		(uuid "0577a214-1ec1-4412-9444-98d88fb4657a")
 		(property "Reference" "#PWR042"
-			(at 300.99 96.52 0)
+			(at 289.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12138,7 +12132,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 300.99 87.63 0)
+			(at 289.56 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12148,7 +12142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 92.71 0)
+			(at 289.56 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12159,7 +12153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 92.71 0)
+			(at 289.56 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,7 +12164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 300.99 92.71 0)
+			(at 289.56 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21756,99 +21750,6 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 289.56 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc6fefcf-013b-4e99-903f-e9a97c224b3e")
-		(property "Reference" "R42"
-			(at 292.1 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 292.1 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 287.782 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 289.56 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "P100KDACT-ND"
-			(at 289.56 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8d41f6b-4303-4bd6-98c8-e9f7ef15804b")
-		)
-		(pin "2"
-			(uuid "70497325-3a81-45b6-8e96-caf39a16cb92")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "R42")
 					(unit 1)
 				)
 			)

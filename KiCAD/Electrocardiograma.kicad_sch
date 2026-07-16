@@ -8759,6 +8759,16 @@
 		)
 		(uuid "fe0ba820-ec76-4964-b245-9da11edcaf9d")
 	)
+	(text "Se cambia el TLV1117 por AMS1117\ndebido a que no se necesita \nbajo ruido para el ESP32"
+		(exclude_from_sim no)
+		(at 333.248 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f0dbfc4-e6dc-4249-85c3-784f5cc43b77")
+	)
 	(text "Las entradas USB deben ir protegidas con TVS, \npero si solo se ocupan una vez quizas no sea necesario"
 		(exclude_from_sim no)
 		(at 299.212 220.98 0)
@@ -9510,16 +9520,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 33.02) (xy 104.14 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d24b71-594d-453c-a15f-ecca0645f260")
-	)
-	(wire
-		(pts
 			(xy 127 43.18) (xy 127 36.83)
 		)
 		(stroke
@@ -9547,6 +9547,16 @@
 			(type default)
 		)
 		(uuid "2a40aefb-56c2-42f1-ae02-146cc66fa811")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbd8681-2c88-4bbe-a7d9-4de32b789825")
 	)
 	(wire
 		(pts
@@ -10090,6 +10100,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 35.56) (xy 95.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603b2bf1-48b5-4e8a-90be-2dcdb92f8aed")
+	)
+	(wire
+		(pts
 			(xy 303.53 43.18) (xy 313.69 43.18)
 		)
 		(stroke
@@ -10190,6 +10210,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 35.56) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68918a92-6f94-4e4b-a430-52a6fbe047db")
+	)
+	(wire
+		(pts
 			(xy 64.77 161.29) (xy 59.69 161.29)
 		)
 		(stroke
@@ -10227,6 +10257,16 @@
 			(type default)
 		)
 		(uuid "6b9696f1-1fff-42ca-90aa-58d21a561be4")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 104.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfd4d60-229a-4eb9-abb6-82160cd70e46")
 	)
 	(wire
 		(pts
@@ -10620,16 +10660,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 104.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ad0450-e1d1-47a0-8d13-7f7e5cfdb32c")
-	)
-	(wire
-		(pts
 			(xy 280.67 102.87) (xy 287.02 102.87)
 		)
 		(stroke
@@ -10657,6 +10687,16 @@
 			(type default)
 		)
 		(uuid "921031d8-38fa-4815-8566-18cbbff44589")
+	)
+	(wire
+		(pts
+			(xy 95.25 35.56) (xy 95.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9242526b-2f38-4167-b3c6-259fde78fdc8")
 	)
 	(wire
 		(pts
@@ -10707,6 +10747,16 @@
 			(type default)
 		)
 		(uuid "966ef37a-ff56-48f3-8260-0b859232c8e4")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 54.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fa9dc0-aa61-48de-93c3-581d81cde292")
 	)
 	(wire
 		(pts
@@ -11187,6 +11237,16 @@
 			(type default)
 		)
 		(uuid "cb9900b0-aea6-4c60-97bb-e4a1f99fe042")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 95.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2e59fd-f95f-4d8d-bf7b-ccf64d1e05c7")
 	)
 	(wire
 		(pts
@@ -12009,12 +12069,12 @@
 		(uuid "a5a45c05-d1f3-43e8-b2d1-eaf6236aa8f5")
 	)
 	(label "To_ESP32"
-		(at 298.45 179.07 180)
+		(at 298.45 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "aa98af46-22fc-4ea9-a50e-5e8c5bd19e99")
 	)

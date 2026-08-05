@@ -11100,16 +11100,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 270.51) (xy 60.96 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdec7be3-5020-4b27-b7f6-939c8dd808a0")
-	)
-	(wire
-		(pts
 			(xy 335.28 43.18) (xy 337.82 43.18)
 		)
 		(stroke
@@ -16574,6 +16564,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 62.23 270.51 0)
+		(mirror x)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16581,10 +16572,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63f433fa-0161-40f4-b429-2b87740bb01d")
 		(property "Reference" "U5"
-			(at 62.23 260.35 0)
+			(at 62.23 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16594,7 +16584,7 @@
 			)
 		)
 		(property "Value" "TLV4888"
-			(at 62.23 262.89 0)
+			(at 62.23 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16604,7 +16594,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 60.96 267.97 0)
+			(at 60.96 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16615,7 +16605,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 63.5 265.43 0)
+			(at 63.5 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

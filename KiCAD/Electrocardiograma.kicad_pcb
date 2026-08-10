@@ -25493,6 +25493,19 @@
 			)
 		)
 	)
+	(gr_text "Nodo Negativo de OpAmps de filtrado, deben poseer\nla menor capacitancia a tierra parásita posible\n"
+		(at 120.5 62.5 0)
+		(layer "Cmts.User")
+		(uuid "cadde806-1624-4ea6-869d-ad1fe1eb2c42")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")

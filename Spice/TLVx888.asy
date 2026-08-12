@@ -1,0 +1,25 @@
+Version 4
+SymbolType CELL
+LINE Normal -64 64 -64 -64
+LINE Normal 64 0 -64 64
+LINE Normal -64 -64 64 0
+LINE Normal 0 -48 0 -32
+LINE Normal 0 48 0 32
+SYMATTR Prefix X
+SYMATTR Value TLVX888
+SYMATTR Description TLVX888 Operational Amplifier
+PIN -64 32 LEFT 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -64 -32 LEFT 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 0 -48 NONE 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 3
+PIN 0 48 NONE 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 4
+PIN 64 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5

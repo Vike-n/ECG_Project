@@ -1,0 +1,482 @@
+* TLVX888
+************************************************************************************************************************
+* (C) Copyright 2024 Texas Instruments Incorporated. All rights reserved.     
+************************************************************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.      
+** TI and its licensors and suppliers make no warranties, either expressed   
+** or implied, with respect to this model, including the warranties of       
+** merchantability or fitness for a particular purpose. The model is        
+** provided solely on an "as is" basis. The entire risk as to its quality   
+** and performance is with the customer
+************************************************************************************************************************
+* Released by: Srivatsan Sathyamoorthy
+* Date: 12/13/2024
+* Part: TLVx888
+* Model Type: Generic (suitable for all analysis types)
+* EVM Users Guide: SBOU193 - JULY 2017 
+* Datasheet: SBOSAG5 - DECEMBER 2024
+* Created with Green-Williams-Lis Op Amp Macro-model Architecture
+*
+* Top Level Model: TLVx888
+* Model Version: 1.0
+*
+************************************************************************************************************************
+* MACRO-MODEL SIMULATED PARAMETERS:
+******************************************************
+*
+* OPEN-LOOP GAIN AND PHASE VS. FREQUENCY  WITH RL, CL EFFECTS (Aol)
+* UNITY GAIN BANDWIDTH (GBW)
+* INPUT COMMON-MODE REJECTION RATIO VS. FREQUENCY (CMRR)
+* POWER SUPPLY REJECTION RATIO VS. FREQUENCY (PSRR)
+* DIFFERENTIAL INPUT IMPEDANCE (Zid)
+* COMMON-MODE INPUT IMPEDANCE (Zic)
+* OPEN-LOOP OUTPUT IMPEDANCE VS. FREQUENCY (Zo)
+* OUTPUT CURRENT THROUGH THE SUPPLY (Iout)
+* INPUT VOLTAGE NOISE DENSITY VS. FREQUENCY (en)
+* INPUT CURRENT NOISE DENSITY VS. FREQUENCY (in)
+* OUTPUT VOLTAGE SWING vs. OUTPUT CURRENT (Vo)
+* SHORT-CIRCUIT OUTPUT CURRENT (Isc)
+* QUIESCENT CURRENT (Iq)
+* SETTLING TIME VS. CAPACITIVE LOAD (ts)
+* SLEW RATE (SR)
+* SMALL SIGNAL OVERSHOOT VS. CAPACITIVE LOAD
+* LARGE SIGNAL RESPONSE
+* OVERLOAD RECOVERY TIME (tor)
+* INPUT BIAS CURRENT (Ib)
+* INPUT OFFSET CURRENT (Ios)
+* INPUT OFFSET VOLTAGE (Vos)
+* INPUT OFFSET VOLTAGE VS. TEMPERATURE (VOS DRIFT)
+* INPUT COMMON-MODE VOLTAGE RANGE (Vcm)
+* INPUT OFFSET VOLTAGE VS. INPUT COMMON-MODE VOLTAGE (Vos vs. Vcm)
+* INPUT/OUTPUT ESD CELLS (ESDin, ESDout)
+*
+******************************************************
+* PARAMETERS NOT MODELED
+******************************************************
+* (1) Variations in Process, Temperature and Supply voltage
+* (2) Min &/ Max specs
+* 
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT TLVX888 IN+ IN- VCC VEE OUT 
+****************************************
+* Models
+.MODEL R_NOISELESS RES (T_ABS=-273)
+****************************************
+* Components
+C_C_COM0 ESDP MID 1.9P 
+C_C_COM1 MID ESDN 1.9P 
+C_C_DIFF ESDN ESDP 1.6P 
+C_C1 N3294772 N2991553 80P 
+C_C2 N3294812 N3294816 80P 
+C_C4 N2991657 MID 1F 
+C_C5 CLAMP MID 369.5N 
+C_C10 N3294626 N3294630 15.92U 
+C_C13 0 N2992397 1F 
+C_C14 0 N2992375 10U 
+C_C15 0 N2992413 1F 
+C_C16 N2991741 MID 1F 
+C_C17 N2991765 MID 1F 
+C_C18 N2991811 MID 1F 
+C_C19 N2991831 MID 1F 
+C_C20 N2991907 MID 1F 
+C_C21 N2991925 MID 1F 
+C_C22 MID N2991969 1F 
+C_C23 N2992033 MID 1F 
+C_C24 N2992029 MID 1F 
+C_C25 N2992093 MID 1P 
+C_C26 N2992099 MID 1P 
+C_C27 SW_OL MID 1N 
+C_C29 VIMON MID 1P 
+C_C30 VOUT_S MID 1P 
+C_C70 VCLP MID 1P 
+C_C77 N3850714 N3850724 80P 
+C_C78 N3850734 N3850744 318.3N 
+C_C79 N3946385 MID 1F 
+C_C80 N3294524 MID 1F 
+C_C91 N40792080 MID 8N 
+C_C93 N40806360 MID 879.3P 
+C_C94 N4166345 N4166335 318.3N 
+E_E1 MID 0 N2992375 0 1
+E_E3 N2992163 MID OUT MID 1
+E_E4 N3294618 MID CL_CLAMP MID 1
+G_G1 N3294772 MID ESDP MID -350U
+G_G2 N2991563 N2991555 N2991553 MID -1M
+G_G3 N3294812 MID VEE_B MID -10.67M
+G_G4 N3850714 MID VCC_B MID -10.67M
+G_G5 N2991587 N2991583 N3850744 N4166335 -1M
+G_G6 VSENSE MID CLAMP MID -1M
+G_G12 CLAW_CLAMP MID N3294524 MID -1M
+G_G13 CL_CLAMP MID CLAW_CLAMP MID -1M
+G_G16 N3201092 MID N3294630 MID -500
+G_G18 VCC_B 0 VCC 0 -1
+G_G19 VEE_B 0 VEE 0 -1
+G_G20 VCC_CLP MID N2992033 MID -1M
+G_G21 VEE_CLP MID N2992029 MID -1M
+G_G22 N2992299 MID N2992295 MID -1
+G_G23 N2992323 MID N2992331 MID -1
+G_G39 N3294626 MID CL_CLAMP N2992235 -89
+G_G48 N3850734 MID N3850724 MID -20
+G_G49 N3946385 MID VSENSE MID -1U
+G_G50 N3294524 MID N3946385 MID -1U
+G_G61 N4040957 MID N4040935 MID -1
+G_G62 N4166345 MID N3294816 MID -20
+I_I_B N2991573 MID DC 50.02P
+I_I_OS ESDN MID DC -50.02P
+I_I_Q VCC VEE DC 1.5M
+R_R_CM1 ESDP MID R_NOISELESS 1T 
+R_R_CM2 MID ESDN R_NOISELESS 1T 
+R_R_DIFF ESDN ESDP R_NOISELESS 100MEG 
+R_R5 MID N3294772 R_NOISELESS 1 
+R_R6 N2991553 N3294772 R_NOISELESS 100MEG 
+R_R7 MID N2991553 R_NOISELESS 4.445K 
+R_R8 N2991563 N2991555 R_NOISELESS 1K 
+R_R9 N3294816 N3294812 R_NOISELESS 100MEG 
+R_R10 MID N3294812 R_NOISELESS 1 
+R_R11 MID N3294816 R_NOISELESS 296 
+R_R15 N2991583 N2991563 R_NOISELESS 1M 
+R_R16 N2991587 N2991583 R_NOISELESS 1K 
+R_R17 N2991619 ESDN R_NOISELESS 1M 
+R_R18 MID N2991623 R_NOISELESS 1T 
+R_R19 MID N2991635 R_NOISELESS 1T 
+R_R20 N2991643 MID R_NOISELESS 1 
+R_R21 N2991657 N2991643 R_NOISELESS 1M 
+R_R22 MID N2991667 R_NOISELESS 1MEG 
+R_R23 MID CLAMP R_NOISELESS 1MEG 
+R_R24 MID VSENSE R_NOISELESS 1K 
+R_R32 MID CLAW_CLAMP R_NOISELESS 1K 
+R_R33 MID CL_CLAMP R_NOISELESS 1K 
+R_R34 N3294630 N3294626 R_NOISELESS 100K 
+R_R35 MID N3294626 R_NOISELESS 1 
+R_R36 MID N3294630 R_NOISELESS 200 
+R_R43 MID N3294682 R_NOISELESS 1 
+R_R46 VCC_B 0 R_NOISELESS 1 
+R_R47 VCC_B N2992397 R_NOISELESS 1M 
+R_R48 N2992397 N2992375 R_NOISELESS 1MEG 
+R_R49 N2992375 0 R_NOISELESS 1T 
+R_R50 N2992375 N2992413 R_NOISELESS 1MEG 
+R_R51 N2992413 VEE_B R_NOISELESS 1M 
+R_R52 VEE_B 0 R_NOISELESS 1 
+R_R53 VCC_CLP MID R_NOISELESS 1T 
+R_R54 N2991729 MID R_NOISELESS 1 
+R_R55 N2991741 N2991729 R_NOISELESS 1M 
+R_R56 VEE_CLP MID R_NOISELESS 1T 
+R_R57 N2991763 MID R_NOISELESS 1 
+R_R58 N2991765 N2991763 R_NOISELESS 1M 
+R_R59 N2991807 MID R_NOISELESS 1T 
+R_R60 N2991809 MID R_NOISELESS 1 
+R_R61 N2991811 N2991809 R_NOISELESS 1M 
+R_R62 N2991831 N2991837 R_NOISELESS 1M 
+R_R63 N2991849 MID R_NOISELESS 1T 
+R_R64 N2991837 MID R_NOISELESS 1 
+R_R65 N2991901 MID R_NOISELESS 1T 
+R_R66 N2991905 MID R_NOISELESS 1 
+R_R67 N2991907 N2991905 R_NOISELESS 1M 
+R_R68 N2991925 N2991931 R_NOISELESS 1M 
+R_R69 N2991943 MID R_NOISELESS 1T 
+R_R70 N2991931 MID R_NOISELESS 1 
+R_R71 N2991969 VSENSE R_NOISELESS 1M 
+R_R72 VCC_B N2991997 R_NOISELESS 1K 
+R_R73 N2991997 N2992033 R_NOISELESS 1M 
+R_R74 N2992001 VEE_B R_NOISELESS 1K 
+R_R75 N2992001 N2992029 R_NOISELESS 1M 
+R_R76 MID VCC_CLP R_NOISELESS 1K 
+R_R77 VEE_CLP MID R_NOISELESS 1K 
+R_R78 N2992323 MID R_NOISELESS 1 
+R_R79 N2992299 MID R_NOISELESS 1 
+R_R80 V11 N2992093 R_NOISELESS 100 
+R_R81 V12 N2992099 R_NOISELESS 100 
+R_R82 N2992105 MID R_NOISELESS 1 
+R_R83 N2992105 SW_OL R_NOISELESS 100 
+R_R167 N3294618 VCLP R_NOISELESS 100 
+R_R187 N3850724 N3850714 R_NOISELESS 100MEG 
+R_R188 N3850744 N3850734 R_NOISELESS 10K 
+R_R189 MID N3850714 R_NOISELESS 1 
+R_R190 MID N3850724 R_NOISELESS 296 
+R_R191 MID N3850734 R_NOISELESS 1 
+R_R192 MID N3850744 R_NOISELESS 526.3 
+R_R195 MID N3946385 R_NOISELESS 1MEG 
+R_R198 MID N3294524 R_NOISELESS 1MEG 
+R_R209 MID N3201092 R_NOISELESS 1 
+R_R227 N4040935 N3201092 R_NOISELESS 150K 
+R_R228 N40792080 N4040935 R_NOISELESS 10K 
+R_R233 N4063590 N4040957 R_NOISELESS 26.2K 
+R_R234 N40806360 N4063590 R_NOISELESS 10K 
+R_R235 MID N4040957 R_NOISELESS 1 
+R_R236 N4166335 N4166345 R_NOISELESS 10K 
+R_R237 MID N4166335 R_NOISELESS 526.3 
+R_R238 MID N4166345 R_NOISELESS 1 
+R_RDUMMY MID N2992235 R_NOISELESS 17.1K 
+R_RS_INN IN- ESDN R_NOISELESS 10M 
+R_RS_INP IN+ ESDP R_NOISELESS 10M 
+R_RX N2992235 N3294682 R_NOISELESS 171K 
+R_RX1 MID N2992151 R_NOISELESS 1T 
+R_RX2 VIMON N2992151 R_NOISELESS 100 
+R_RX3 MID N2992163 R_NOISELESS 1T 
+R_RX4 VOUT_S N2992163 R_NOISELESS 100 
+V_V_GRN N2991943 MID -75
+V_V_GRP N2991901 MID 82
+V_V_ISCN N2991849 MID -45
+V_V_ISCP N2991807 MID 40
+V_V_ORN N2992295 VCLP -3.3
+V_V_ORP N2992331 VCLP 3.65
+V_VCM_MAX N2991623 VCC_B -1.7
+V_VCM_MIN N2991635 VEE_B -100M
+X_H1 N2992235 OUT N2992151 MID H1_TLVX888
+X_H2 N2992287 N2992323 V12 MID H2_TLVX888
+X_H3 N2992267 N2992299 V11 MID H3_TLVX888
+X_S1 N2992267 CLAMP N2992267 CLAMP S1_TLVX888
+X_S2 CLAMP N2992287 CLAMP N2992287 S2_TLVX888
+X_U4 N2991555 N2991573 VOS_DRIFT_TLVX888 PARAMS: DC=863N POL=1 DRIFT=0.010E-6
+X_U5 ESDN ESDP VCC VEE ESD_IN_TLVX888
+X_U6 N2991587 MID N2991643 MID N2991623 N2991635 VCM_CLAMP_TLVX888 PARAMS: GAIN=1
+X_U10 VCC_CLP VEE_CLP VOUT_S MID N2991729 N2991763 CLAMP_AMP_LO_TLVX888 PARAMS: G=1
+X_U11 N2991807 N2991849 VIMON MID N2991809 N2991837 CLAMP_AMP_LO_TLVX888 PARAMS: G=1
+X_U12 N2991901 N2991943 N2991969 MID N2991905 N2991931 CLAMP_AMP_HI_TLVX888 PARAMS: G=10
+X_U16 MID N2992105 N2992093 N2992099 OL_SENSE_TLVX888
+X_U18 VIMON MID N2991997 VCC_B CLAWP_TLVX888
+X_U19 MID VIMON VEE_B N2992001 CLAWN_TLVX888
+X_U21 OUT VCC VEE ESD_OUT_TLVX888
+X_U22 N2991811 N2991831 CL_CLAMP MID CL_SRC_TLVX888 PARAMS: GAIN=1 IPOS=330E-3 INEG=-330E-3
+X_U23 N2991907 N2991925 CLAMP MID GR_SRC_TLVX888 PARAMS: GAIN=1 IPOS=29.58E0 INEG=-29.58E0
+X_U25 SW_OL MID N3294626 N3294630 SW_OL_TLVX888
+X_U26 VIMON MID VCC MID IQ_SRC_TLVX888 PARAMS: GAIN=1E-3
+X_U27 MID VIMON MID VEE IQ_SRC_TLVX888 PARAMS: GAIN=1E-3
+X_U30 N2991657 N2991619 MID N2991667 AOL_1_TLVX888 PARAMS: GAIN=1E-4 IPOS=.5 INEG=-.5
+X_U31 N2991667 MID MID CLAMP AOL_2_TLVX888 PARAMS: GAIN=3.31E-1 IPOS=15.32 INEG=-15.32
+X_U32 N4063590 MID MID N3294682 ZO_SRC_TLVX888 PARAMS: GAIN=1 IPOS=15.07E3 INEG=-15.75E3
+X_U35 N2991741 N2991765 CLAW_CLAMP MID CLAW_SRC_TLVX888 PARAMS: GAIN=1 IPOS=165E-3 INEG=-165E-3
+X_U36 N2991573 MID FEMT_TLVX888 PARAMS: NVRF=166.57
+X_U37 ESDN MID FEMT_TLVX888 PARAMS: NVRF=166.57
+X_U40 ESDP N2991573 VNSE_TLVX888 PARAMS: NVR=7.572
+.ENDS TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT AOL_1_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1E-4 IPOS=.5 INEG=-.5
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS AOL_1_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT AOL_2_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=3.57812 IPOS=117 INEG=-125
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS AOL_2_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CL_SRC_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=0.36E1 INEG=-0.36E1
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS CL_SRC_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CLAMP_AMP_HI_TLVX888 VC+ VC- VIN COM VO+ VO- PARAMS: G=10
+****************************************
+* Components
+GVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}
+GVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}
+.ENDS CLAMP_AMP_HI_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CLAMP_AMP_LO_TLVX888 VC+ VC- VIN COM VO+ VO- PARAMS: G=1
+****************************************
+* Components
+GVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}
+GVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}
+.ENDS CLAMP_AMP_LO_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CLAW_SRC_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=0.18E1 INEG=-0.18E1
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS CLAW_SRC_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CLAWN_TLVX888 VC+ VC- IOUT+ IOUT-
+****************************************
+* Components
+G1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} =(0, 2.60E-05)(5.03, 4.07E-04)(9.56, 7.62E-04)(20.12, 1.75E-03)(29.96,
++ 3.11E-03)(36.92, 4.76E-03)(40, 5.80E-03)(42, 6.80E-03)(42.50, 7.50E-03)(43, 8.50E-03)(43.50, 1.00E-02)(44,
++ 1.30E-02)(44.50, 1.50E-02)(45, 1.80E-02)
+.ENDS CLAWN_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT CLAWP_TLVX888 VC+ VC- IOUT+ IOUT-
+****************************************
+* Components
+G1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} =(0, 2.60E-05)(5.39, 3.99E-04)(11.04, 8.00E-04)(20.16, 1.51E-03)(30.22,
++ 2.50E-03)(34.84, 2.98E-03)(36.08, 3.15E-03)(37.62, 3.45E-03)(38, 3.75E-03)(38.35, 6.00E-03)(38.70, 8.00E-03)(39,
++ 1.00E-02)(39.50, 1.30E-02)(40, 1.80E-02)
+.ENDS CLAWP_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT ESD_IN_TLVX888 ESDN ESDP VCC VEE
+****************************************
+* Models
+.MODEL ESD_SW VSWITCH (RON=50 ROFF=1E12 VON=500E-3 VOFF=100E-3)
+****************************************
+* Components
+S1 ESDN VCC ESDN VCC ESD_SW
+S2 ESDP VCC ESDP VCC ESD_SW
+S3 VEE ESDN VEE ESDN ESD_SW
+S4 VEE ESDP VEE ESDP ESD_SW
+.ENDS ESD_IN_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT ESD_OUT_TLVX888 OUT VCC VEE
+****************************************
+* Models
+.MODEL ESD_SW VSWITCH (RON=50 ROFF=1E12 VON=500E-3 VOFF=100E-3)
+****************************************
+* Components
+S1 OUT VCC OUT VCC ESD_SW
+S2 VEE OUT VEE OUT ESD_SW
+.ENDS ESD_OUT_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT FEMT_TLVX888 1 2 PARAMS: NVRF=166.57
+****************************************
+* Components
+E1 3 0 5 0 10
+G1 1 2 3 0 1E-6
+R1 5 0 {1.184*PWR(NVRF,2)} 
+R2 5 0 {1.184*PWR(NVRF,2)} 
+.ENDS FEMT_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT GR_SRC_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=220E1 INEG=-220E1
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS GR_SRC_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT IQ_SRC_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1E-3
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={IF((V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-))}
+.ENDS IQ_SRC_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT OL_SENSE_TLVX888 COM SW+ OLN OLP
+****************************************
+* Components
+GSW+ COM SW+ VALUE = {IF((V(OLN,COM)>10E-3|V(OLP,COM)>10E-3),1,0)}
+.ENDS OL_SENSE_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT SW_OL_TLVX888 SW_OL MID CAP_L CAP_R
+****************************************
+* Models
+.MODEL OL_SW VSWITCH (RON=1E-3 ROFF=1E12 VON=900E-3 VOFF=800E-3)
+****************************************
+* Components
+S1 CAP_L CAP_R SW_OL MID OL_SW
+.ENDS SW_OL_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT H1_TLVX888 1 2 3 4
+****************************************
+* Components
+H_H1 3 4 VH_H1 1K
+VH_H1 1 2 0V
+.ENDS H1_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT H2_TLVX888 1 2 3 4
+****************************************
+* Components
+H_H2 3 4 VH_H2 1
+VH_H2 1 2 0V
+.ENDS H2_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT H3_TLVX888 1 2 3 4
+****************************************
+* Components
+H_H3 3 4 VH_H3 -1
+VH_H3 1 2 0V
+.ENDS H3_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT S1_TLVX888 1 2 3 4
+****************************************
+* Models
+.MODEL _S1 VSWITCH (ROFF=1E12 RON=10M VOFF=0.0V VON=10MV)
+****************************************
+* Components
+RS_S1 1 2 1G 
+S_S1 3 4 1 2 _S1
+.ENDS S1_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT S2_TLVX888 1 2 3 4
+****************************************
+* Models
+.MODEL _S2 VSWITCH (ROFF=1E12 RON=10M VOFF=0.0V VON=10MV)
+****************************************
+* Components
+RS_S2 1 2 1G 
+S_S2 3 4 1 2 _S2
+.ENDS S2_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT VCM_CLAMP_TLVX888 VIN+ VIN- IOUT- IOUT+ VP+ VP- PARAMS: GAIN=1
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VIN+,VIN-),V(VP-,VIN-),V(VP+,VIN-))}
+.ENDS VCM_CLAMP_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT VNSE_TLVX888 1 2 PARAMS: NVR=5.248
+****************************************
+* Components
+E3 1 2 5 0 10
+R4 5 0 {1.184*PWR(NVR,2)} 
+R5 5 0 {1.184*PWR(NVR,2)} 
+.ENDS VNSE_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT VOS_DRIFT_TLVX888 VOS+ VOS- PARAMS: DC=-1.86843E-6 POL=1 DRIFT=0.005E-6
+****************************************
+* Components
+E1 VOS+ VOS- VALUE={DC+POL*DRIFT*(TEMP-27)}
+.ENDS VOS_DRIFT_TLVX888
+************************************************************************************************************************
+
+************************************************************************************************************************
+.SUBCKT ZO_SRC_TLVX888 VC+ VC- IOUT+ IOUT- PARAMS: GAIN=200 IPOS=7E5 INEG=-7E5
+****************************************
+* Components
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS ZO_SRC_TLVX888
+************************************************************************************************************************
+

@@ -1,0 +1,56 @@
+import math
+
+archivo = r"C:\Users\Saile\Desktop\Github\ECG_Project\AproximacionDeCapacitanciaDeNodos\ListaDePoligonosA_Analizar\NodoTierra.txt"
+
+def area_tri(P1, P2, P3):
+    ax = P2[0] - P1[0]
+    ay = P2[1] - P1[1]
+    az = P2[2] - P1[2]
+
+    bx = P3[0] - P1[0]
+    by = P3[1] - P1[1]
+    bz = P3[2] - P1[2]
+
+    cx = ay*bz - az*by
+    cy = az*bx - ax*bz
+    cz = ax*by - ay*bx
+
+    return 0.5 * math.sqrt(cx*cx + cy*cy + cz*cz)
+
+
+degenerados = []
+thin = []
+
+with open(archivo, "r") as f:
+
+    for numero, linea in enumerate(f, 1):
+
+        if not linea.startswith("T "):
+            continue
+
+        p = linea.split()
+
+        # T nombre x1 y1 z1 x2 y2 z2 x3 y3 z3 ...
+        P1 = tuple(map(float, p[2:5]))
+        P2 = tuple(map(float, p[5:8]))
+        P3 = tuple(map(float, p[8:11]))
+
+        A = area_tri(P1, P2, P3)
+
+        if A == 0:
+            degenerados.append(
+                (numero, P1, P2, P3, A)
+            )
+
+        elif A < 1e-8:
+            thin.append(
+                (numero, P1, P2, P3, A)
+            )
+
+print("Triángulos degenerados:", len(degenerados))
+print("Triángulos muy pequeños:", len(thin))
+
+print("\nPrimeros degenerados:")
+
+for x in degenerados[:20]:
+    print(x)

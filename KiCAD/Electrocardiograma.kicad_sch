@@ -8467,9 +8467,21 @@
 		)
 		(uuid "34893471-5da7-4ce1-a001-9d1eb0ad2a98")
 	)
+	(text "Entre Etapas"
+		(exclude_from_sim no)
+		(at 114.554 195.58 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3f6f799c-73ee-4ac6-8df2-9ef442f72587")
+	)
 	(text "CriticamenteFiltrado"
 		(exclude_from_sim no)
-		(at 134.62 340.614 0)
+		(at 146.812 342.138 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -8503,7 +8515,7 @@
 	)
 	(text "C_f=2.5nF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
 		(exclude_from_sim no)
-		(at 132.588 357.124 0)
+		(at 147.066 358.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8513,13 +8525,23 @@
 	)
 	(text "C_f=10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c=5.9[kHz]"
 		(exclude_from_sim no)
-		(at 134.62 334.518 0)
+		(at 146.812 336.042 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "9382eac6-cad6-4957-aa11-6c8491a52489")
+	)
+	(text "F_c=133[kHz] frecuencia de corte\nfiltro pasa bajos pasivo RC \n"
+		(exclude_from_sim no)
+		(at 116.332 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "944f2a11-49a4-400c-8a8a-530777c0a342")
 	)
 	(text "Adquisicion de Señal Biofisiologica"
 		(exclude_from_sim no)
@@ -8569,7 +8591,7 @@
 	)
 	(text "SobreFiltrado"
 		(exclude_from_sim no)
-		(at 134.874 328.93 0)
+		(at 147.066 330.454 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -8581,7 +8603,7 @@
 	)
 	(text "SubFiltrado"
 		(exclude_from_sim no)
-		(at 133.858 351.282 0)
+		(at 146.05 352.806 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -8636,7 +8658,7 @@
 	)
 	(text "C_f=3.7nF para aplanar la \nrespuesta de C_i=1nF parasito "
 		(exclude_from_sim no)
-		(at 134.874 344.678 0)
+		(at 147.066 346.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8745,6 +8767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29c71336-8437-4163-aabe-f888fca17204")
+	)
+	(junction
+		(at 299.72 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6ec716-a1f3-4879-a80d-3149e7304078")
 	)
 	(junction
 		(at 49.53 269.24)
@@ -9005,6 +9033,12 @@
 		(uuid "b2363e2f-0c00-47d8-8d29-34a9c05d2eee")
 	)
 	(junction
+		(at 92.71 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35f17b1-c704-45a8-9ec8-fec3011ace12")
+	)
+	(junction
 		(at 434.34 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9057,6 +9091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67d3dd8-592e-47a0-ba53-5a80689b2322")
+	)
+	(junction
+		(at 106.68 344.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca254aa0-dede-40a4-882e-bf82bdfc736b")
 	)
 	(junction
 		(at 530.86 82.55)
@@ -9192,6 +9232,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 344.17) (xy 106.68 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e522b2-6d66-466a-ab87-11bd2d288249")
+	)
+	(wire
+		(pts
 			(xy 406.4 224.79) (xy 406.4 228.6)
 		)
 		(stroke
@@ -9262,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 350.52) (xy 297.18 350.52)
+			(xy 303.53 350.52) (xy 299.72 350.52)
 		)
 		(stroke
 			(width 0)
@@ -9279,6 +9329,16 @@
 			(type default)
 		)
 		(uuid "10986e44-ba35-41b7-8436-f6e35209fca7")
+	)
+	(wire
+		(pts
+			(xy 106.68 344.17) (xy 107.95 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cc5727-1847-4e74-9b80-7568b6a1a0d8")
 	)
 	(wire
 		(pts
@@ -9402,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 208.28) (xy 93.98 208.28)
+			(xy 90.17 208.28) (xy 92.71 208.28)
 		)
 		(stroke
 			(width 0)
@@ -10312,6 +10372,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 208.28) (xy 93.98 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df97925-9463-4b3b-ad84-a1b2cb32f82a")
+	)
+	(wire
+		(pts
 			(xy 497.84 74.93) (xy 502.92 74.93)
 		)
 		(stroke
@@ -10562,6 +10632,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 271.78) (xy 113.03 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaccb2b-b4d0-4c06-8eaf-c98a366c1caf")
+	)
+	(wire
+		(pts
 			(xy 394.97 111.76) (xy 411.48 111.76)
 		)
 		(stroke
@@ -10569,6 +10649,26 @@
 			(type default)
 		)
 		(uuid "7f83e477-8d33-4693-9e5c-8bfaf9dd89bd")
+	)
+	(wire
+		(pts
+			(xy 92.71 208.28) (xy 92.71 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8104ca51-80e9-47bb-8c42-37689cfcbcd9")
+	)
+	(wire
+		(pts
+			(xy 299.72 350.52) (xy 299.72 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811fafc2-7c66-4cba-83d0-c9275e8fc667")
 	)
 	(wire
 		(pts
@@ -10972,7 +11072,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 344.17) (xy 107.95 344.17)
+			(xy 102.87 344.17) (xy 106.68 344.17)
 		)
 		(stroke
 			(width 0)
@@ -11659,6 +11759,16 @@
 			(type default)
 		)
 		(uuid "e01eebfd-b98e-44c5-90fe-ed0856552656")
+	)
+	(wire
+		(pts
+			(xy 299.72 350.52) (xy 297.18 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02c2c85-e3f4-4219-a735-ffc7ab70266d")
 	)
 	(wire
 		(pts
@@ -13571,6 +13681,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fadfeb7-6faf-4ddc-9c5d-353f209fa852")
+		(property "Reference" "#PWR045"
+			(at 113.03 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c79252f-a2eb-425c-8369-4051e0284bf5")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_Polarized_US_1")
 		(lib_id "Device:C_Polarized_US")
 		(at 461.01 104.14 0)
@@ -15256,6 +15444,100 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 92.71 214.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3853e863-ff8e-40fe-ae49-2de611154068")
+		(property "Reference" "C27"
+			(at 96.52 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 96.52 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 91.7448 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 92.71 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "880c2347-fc0d-44a9-aa05-87ec55c00a88")
+		)
+		(pin "2"
+			(uuid "b5060917-53e2-47a9-a945-65d863813a26")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_6")
 		(lib_id "Device:R")
 		(at 57.15 210.82 180)
@@ -16209,6 +16491,100 @@
 	(symbol
 		(lib_name "C_3")
 		(lib_id "Device:C")
+		(at 106.68 350.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bcac05-bc0e-42e2-9243-f97d81dc8112")
+		(property "Reference" "C29"
+			(at 110.49 349.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 110.49 351.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 105.7148 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 106.68 350.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9cb5fa4-18a5-42db-81de-9b05991d3965")
+		)
+		(pin "2"
+			(uuid "0f004a3f-915a-4fda-b43c-6bed3d430236")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
 		(at 276.86 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -17097,6 +17473,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 354.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a24f02c-a48c-4267-b743-47adfdf52ecc")
+		(property "Reference" "#PWR046"
+			(at 106.68 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 359.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f88b9056-9bb9-48f4-a929-3befbbd622b3")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 180.34 203.2 0)
 		(unit 1)
@@ -17847,6 +18301,100 @@
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "U5")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 113.03 278.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65f41df7-04f9-4f84-97cd-3c2f89e4a94d")
+		(property "Reference" "C28"
+			(at 116.84 276.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 116.84 279.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 112.0648 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 113.03 278.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8eb8049-a623-4f2f-b34d-1bd2cbe4696c")
+		)
+		(pin "2"
+			(uuid "4298090f-cf3b-432c-9432-cbe416003ecf")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C28")
+					(unit 1)
 				)
 			)
 		)
@@ -20367,6 +20915,100 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 299.72 356.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "967abe52-bf7c-43c0-894c-c207d25eb6ee")
+		(property "Reference" "C30"
+			(at 303.53 355.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 303.53 358.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 298.7548 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 299.72 356.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee99103-23b6-4a0e-a280-1b6d0fa07d98")
+		)
+		(pin "2"
+			(uuid "3d047439-1d6f-4607-bcf7-5ec2c674c8a2")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -23153,6 +23795,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 92.71 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c248efa4-b20e-4402-a29b-c1b2bc48a9da")
+		(property "Reference" "#PWR044"
+			(at 92.71 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b35592e5-74d8-403e-b317-46c3af4cfc3e")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_7")
 		(lib_id "Device:R")
 		(at 83.82 353.06 90)
@@ -24607,6 +25327,84 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 360.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e299bc3f-4207-472d-a2e6-41c44e9bc93b")
+		(property "Reference" "#PWR047"
+			(at 299.72 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.72 365.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "683b4ff8-4269-493e-b8f9-252a81d92d5c")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

@@ -8421,18 +8421,6 @@
 		)
 		(uuid "089c2bb3-1c83-4aed-b676-71302de99683")
 	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 125.984 230.378 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "0bfcbfbe-db6f-4990-8fe9-f0ec77d00efb")
-	)
 	(text "Se cambia el TLV1117 por AMS1117\ndebido a que no se necesita \nbajo ruido para el ESP32"
 		(exclude_from_sim no)
 		(at 478.028 87.376 0)
@@ -8442,18 +8430,6 @@
 			)
 		)
 		(uuid "0f0dbfc4-e6dc-4249-85c3-784f5cc43b77")
-	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 190.5 314.96 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "10c96c82-5d1b-4299-9297-95a7bcff43fb")
 	)
 	(text "Comentarios (Cuando se discutan se eliminan):"
 		(exclude_from_sim no)
@@ -8467,18 +8443,6 @@
 			)
 		)
 		(uuid "1997c76c-350b-45d3-9f43-5a78350937fe")
-	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 136.398 291.846 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "29f5e543-391b-4f26-adc3-96ffcd492d99")
 	)
 	(text "Las entradas USB deben ir protegidas con TVS, \npero si solo se ocupan una vez quizas no sea necesario"
 		(exclude_from_sim no)
@@ -8535,18 +8499,6 @@
 			(justify left)
 		)
 		(uuid "70991656-6765-4ca7-b445-e9d7d150b10b")
-	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 538.734 93.98 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "7f50f621-323a-46e3-bd5a-6ac602aba6d8")
 	)
 	(text "Adquisicion de Señal Biofisiologica"
 		(exclude_from_sim no)
@@ -8616,30 +8568,6 @@
 		)
 		(uuid "bb4384cb-05b3-4db9-98ed-13109fcec2f2")
 	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 130.048 350.266 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "bbaf1ef8-3df5-4586-82a3-c8a51eec9cd6")
-	)
-	(text "NUEVO"
-		(exclude_from_sim no)
-		(at 202.184 244.348 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "ca6d5ab7-9295-41b9-b259-03237749219f")
-	)
 	(text "Resistencias (120 Ohm) entre etapas que\ncontengan capacitor\n\nINA --> HPF\nHPF --> BSF\nAMP_inv --> Nivelador"
 		(exclude_from_sim no)
 		(at 257.048 278.892 0)
@@ -8692,6 +8620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0db67576-d32f-4121-b95e-5d4f53ae53f4")
+	)
+	(junction
+		(at 193.04 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fefa5b5-512f-485a-a62e-abd9aad03718")
 	)
 	(junction
 		(at 165.1 102.87)
@@ -8781,7 +8715,7 @@
 		(at 481.33 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b814a92-7485-46b9-9639-fa29dc8d4dfe")
+		(uuid "37d69932-4201-40b7-a32d-2a35e7c53508")
 	)
 	(junction
 		(at 176.53 232.41)
@@ -8896,12 +8830,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77e2459a-8ecc-4cec-8cbd-11632fed24a6")
-	)
-	(junction
-		(at 203.2 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a433936-135b-4109-8eab-5dcee816a75d")
 	)
 	(junction
 		(at 449.58 154.94)
@@ -9066,12 +8994,6 @@
 		(uuid "c67d3dd8-592e-47a0-ba53-5a80689b2322")
 	)
 	(junction
-		(at 193.04 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c83c2b87-b44d-47c1-8f89-e6b20ee1587d")
-	)
-	(junction
 		(at 530.86 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9102,10 +9024,22 @@
 		(uuid "e894466b-57da-4994-825b-0a838535731a")
 	)
 	(junction
+		(at 193.04 326.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8e00993-25af-4809-99c7-fa67f9e215df")
+	)
+	(junction
 		(at 173.99 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea00fcd5-b06b-4c3c-b7ec-ee551becdfdd")
+	)
+	(junction
+		(at 200.66 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1ec17b-685a-450c-b081-be5821d99414")
 	)
 	(junction
 		(at 458.47 74.93)
@@ -9263,7 +9197,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 336.55) (xy 190.5 336.55)
+			(xy 209.55 336.55) (xy 203.2 336.55)
 		)
 		(stroke
 			(width 0)
@@ -9403,6 +9337,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 217.17) (xy 128.27 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d168c-a503-40e2-815d-e9762ea15745")
+	)
+	(wire
+		(pts
 			(xy 68.58 327.66) (xy 71.12 327.66)
 		)
 		(stroke
@@ -9470,16 +9414,6 @@
 			(type default)
 		)
 		(uuid "2533b147-1a39-48f6-b1e1-ff726d1a21b0")
-	)
-	(wire
-		(pts
-			(xy 203.2 220.98) (xy 198.12 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265482bc-b6c5-4a5c-a950-0a6fd3f74434")
 	)
 	(wire
 		(pts
@@ -9700,6 +9634,16 @@
 			(type default)
 		)
 		(uuid "372d858c-aaa5-46d0-92b7-b39bcc7c0081")
+	)
+	(wire
+		(pts
+			(xy 193.04 336.55) (xy 190.5 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3771fa5e-d5ec-4c59-82a3-3c028daae274")
 	)
 	(wire
 		(pts
@@ -10223,6 +10167,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 220.98) (xy 200.66 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d0f856-9994-445d-a932-388306e1e92e")
+	)
+	(wire
+		(pts
 			(xy 173.99 334.01) (xy 175.26 334.01)
 		)
 		(stroke
@@ -10250,6 +10204,16 @@
 			(type default)
 		)
 		(uuid "68b02ed9-ed28-4fbb-b44b-ea2e033a3233")
+	)
+	(wire
+		(pts
+			(xy 135.89 269.24) (xy 132.08 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692c9af7-e0f4-4696-b55c-cf4b6f139407")
 	)
 	(wire
 		(pts
@@ -10330,6 +10294,16 @@
 			(type default)
 		)
 		(uuid "71262926-9a9c-4b17-8aa5-9377d29e1d9f")
+	)
+	(wire
+		(pts
+			(xy 200.66 220.98) (xy 198.12 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c844a2-287f-497e-8663-3a23e978edce")
 	)
 	(wire
 		(pts
@@ -10473,6 +10447,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 269.24) (xy 143.51 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d032128-3cac-47e9-9f7b-fc9863a012d5")
+	)
+	(wire
+		(pts
 			(xy 179.07 54.61) (xy 179.07 67.31)
 		)
 		(stroke
@@ -10543,7 +10527,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 240.03) (xy 203.2 240.03)
+			(xy 195.58 240.03) (xy 200.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10763,7 +10747,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 330.2) (xy 124.46 330.2)
+			(xy 121.92 330.2) (xy 125.73 330.2)
 		)
 		(stroke
 			(width 0)
@@ -10920,6 +10904,16 @@
 			(type default)
 		)
 		(uuid "9d74eb07-e127-4d0b-b1ba-880aa4690215")
+	)
+	(wire
+		(pts
+			(xy 133.35 330.2) (xy 138.43 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6b2ff7-7d87-44cd-bbc2-04e139dffb57")
 	)
 	(wire
 		(pts
@@ -11183,6 +11177,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 147.32) (xy 481.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b5f187-d3a1-4cb4-8db7-084d5ca52adf")
+	)
+	(wire
+		(pts
 			(xy 91.44 289.56) (xy 91.44 292.1)
 		)
 		(stroke
@@ -11190,6 +11194,16 @@
 			(type default)
 		)
 		(uuid "b4fbef46-92a2-4fa1-b84b-3ea40a698ceb")
+	)
+	(wire
+		(pts
+			(xy 193.04 326.39) (xy 193.04 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52a58e8-811e-42e0-8b65-36bc39105801")
 	)
 	(wire
 		(pts
@@ -11323,7 +11337,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 132.08) (xy 481.33 142.24)
+			(xy 481.33 132.08) (xy 481.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11340,16 +11354,6 @@
 			(type default)
 		)
 		(uuid "c793bb92-1165-4492-b1fd-177bad4c7be6")
-	)
-	(wire
-		(pts
-			(xy 203.2 220.98) (xy 203.2 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81dca4b-2b26-4cd7-9d9f-7ee4f2fe1712")
 	)
 	(wire
 		(pts
@@ -11473,16 +11477,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 326.39) (xy 193.04 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5140062-6dc1-47f7-925e-0fcc9df4cebe")
-	)
-	(wire
-		(pts
 			(xy 77.47 204.47) (xy 77.47 214.63)
 		)
 		(stroke
@@ -11573,7 +11567,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 232.41) (xy 203.2 240.03)
+			(xy 200.66 232.41) (xy 200.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11713,7 +11707,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 232.41) (xy 203.2 232.41)
+			(xy 195.58 336.55) (xy 193.04 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9770062-5d50-4fc9-b3a3-b093578a4d8d")
+	)
+	(wire
+		(pts
+			(xy 196.85 232.41) (xy 200.66 232.41)
 		)
 		(stroke
 			(width 0)
@@ -12052,7 +12056,7 @@
 		(uuid "0275a36c-ecb3-4469-bcc4-9d2fcaa6f014")
 	)
 	(label "Sensing_Out"
-		(at 193.04 336.55 0)
+		(at 209.55 336.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12062,7 +12066,7 @@
 		(uuid "031f6ec5-6a81-4cbd-81be-83abae254e96")
 	)
 	(label "Leveled_Signal"
-		(at 203.2 220.98 0)
+		(at 200.66 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12122,7 +12126,7 @@
 		(uuid "2fdf2722-a234-4042-b51b-004b6ee2e5ca")
 	)
 	(label "HPF_out"
-		(at 116.84 217.17 0)
+		(at 128.27 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12292,7 +12296,7 @@
 		(uuid "d6d352e0-5050-45c6-904e-c92699952274")
 	)
 	(label "N50Hz_out"
-		(at 132.08 269.24 0)
+		(at 146.05 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12312,7 +12316,7 @@
 		(uuid "e78b20fa-164c-446c-bbf5-ff3130ab3a4f")
 	)
 	(label "LPF_out"
-		(at 124.46 330.2 0)
+		(at 138.43 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13327,6 +13331,98 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_12")
+		(lib_id "Device:R")
+		(at 139.7 269.24 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e29a3b2-5e2d-4757-a252-bc852c58114e")
+		(property "Reference" "R47"
+			(at 139.7 266.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 139.7 272.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 139.7 267.462 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "Aliexpress"
+			(at 139.7 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59ebe324-3f6d-47a0-99bd-d7137ad0ff70")
+		)
+		(pin "2"
+			(uuid "0e208f45-e483-481f-8dee-fad11d7548c4")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -15548,7 +15644,7 @@
 	(symbol
 		(lib_name "C_Polarized_US_1")
 		(lib_id "Device:C_Polarized_US")
-		(at 481.33 146.05 0)
+		(at 481.33 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15559,7 +15655,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f8bbe6a-adc1-4600-b6cc-5aeb1b976f85")
 		(property "Reference" "C16"
-			(at 485.14 144.1449 0)
+			(at 485.14 141.6049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15570,7 +15666,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 485.14 146.6849 0)
+			(at 485.14 144.1449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15581,7 +15677,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 481.33 146.05 0)
+			(at 481.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15592,7 +15688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 481.33 146.05 0)
+			(at 481.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15603,7 +15699,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 481.33 146.05 0)
+			(at 481.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15614,7 +15710,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1096-1-ND"
-			(at 481.33 146.05 0)
+			(at 481.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16260,7 +16356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 537.5148 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16745,6 +16841,98 @@
 			(project "Electrocardiograma"
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_12")
+		(lib_id "Device:R")
+		(at 129.54 330.2 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58a479fa-fe66-4ee9-abb0-07cc614bf980")
+		(property "Reference" "R48"
+			(at 129.54 327.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 129.54 332.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 129.54 328.422 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "Aliexpress"
+			(at 129.54 330.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "347f5ccf-6ab8-4f2f-83cd-28e85f2d07e7")
+		)
+		(pin "2"
+			(uuid "9c9ef276-836f-44ac-bf55-cb56f0128f67")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -19949,6 +20137,98 @@
 		)
 	)
 	(symbol
+		(lib_name "R_12")
+		(lib_id "Device:R")
+		(at 199.39 336.55 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "917b2859-8b1e-4e81-81d4-5ef1f9246c79")
+		(property "Reference" "R49"
+			(at 199.39 334.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 199.39 339.344 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 199.39 334.772 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "Aliexpress"
+			(at 199.39 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2aaeb584-9e95-48b3-9eb3-ae1b013b2f1a")
+		)
+		(pin "2"
+			(uuid "51a7ef2f-2230-4dc5-90ff-1322d18cb373")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS24")
 		(at 514.35 137.16 180)
 		(unit 1)
@@ -20931,6 +21211,98 @@
 				(path "/daa88958-acc8-459e-83b6-465edaf551be"
 					(reference "U4")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_12")
+		(lib_id "Device:R")
+		(at 120.65 217.17 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a75f9db4-23dd-48e2-85a4-7a04046067af")
+		(property "Reference" "R45"
+			(at 120.65 214.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 120.65 219.964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 120.65 215.392 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "Aliexpress"
+			(at 120.65 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8192e5e0-f6a4-4f92-878f-98c388f1678b")
+		)
+		(pin "2"
+			(uuid "0f4633b6-a8fd-4f14-b965-5feb93b2d616")
+		)
+		(instances
+			(project "Electrocardiograma"
+				(path "/daa88958-acc8-459e-83b6-465edaf551be"
+					(reference "R45")
+					(unit 1)
 				)
 			)
 		)

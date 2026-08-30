@@ -8420,39 +8420,13 @@
 		)
 		(uuid "0f0dbfc4-e6dc-4249-85c3-784f5cc43b77")
 	)
-	(text "R_f = 24k\nR_i = 1k"
+	(text "Pasa de tener A_v = 3.3 = 330k/100k\na tener A_v = 24 = 24k/1k\nEsto hay que revisarlo y buscar alternativa\n"
 		(exclude_from_sim no)
-		(at 328.93 332.486 0)
+		(at 208.28 376.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "10f316a8-4089-4b4d-a52f-293f1cebe692")
-	)
-	(text "R_f = 330k\nR_i = 100k"
-		(exclude_from_sim no)
-		(at 285.242 339.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "184389c7-48c2-401e-893d-4eceb459a191")
-	)
-	(text "Pasa de tener A_v = 3.3 = 330k/100k\na tener A_v = 24 = 24k/1k\nEsto hay que revisarlo y buscar alternativa"
-		(exclude_from_sim no)
-		(at 210.312 370.586 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
-				(color 193 15 15 1)
+				(thickness 0.1588)
 			)
 		)
 		(uuid "18682825-4701-4c5b-9138-9589f24f0f01")
@@ -8503,16 +8477,6 @@
 			)
 		)
 		(uuid "34893471-5da7-4ce1-a001-9d1eb0ad2a98")
-	)
-	(text "C_f = 303pF para aplanar la \nrespuesta de C_i = 1nF parasito "
-		(exclude_from_sim no)
-		(at 285.75 354.584 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "35eca568-1358-49e3-a0e6-a600086c6450")
 	)
 	(text "La etapa de realimentación negativa\ntiene el mismo criterio que el LPF"
 		(exclude_from_sim no)
@@ -8585,6 +8549,28 @@
 		)
 		(uuid "4b02c97c-16a9-4fbc-be0a-73db55c70b84")
 	)
+	(text "SobreFiltrado"
+		(exclude_from_sim no)
+		(at 286.512 334.264 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "57ef9f5e-3ce1-45f3-a6b3-41b9735ba12f")
+	)
+	(text "C_f=10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c=16[kHz]"
+		(exclude_from_sim no)
+		(at 286.258 339.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c650111-07b2-45c3-a14c-2a9aa808956c")
+	)
 	(text "C_f=10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c=5.9[kHz]"
 		(exclude_from_sim no)
 		(at 145.288 270.002 0)
@@ -8594,18 +8580,6 @@
 			)
 		)
 		(uuid "5d0485fc-dc13-407d-be5e-0b2792f52868")
-	)
-	(text "SobreFiltrado"
-		(exclude_from_sim no)
-		(at 329.692 336.55 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "5df8b64b-d7e4-4f4b-b31c-1afd7fb900e3")
 	)
 	(text "LED indicador de encendido\n"
 		(exclude_from_sim no)
@@ -8627,6 +8601,18 @@
 			)
 		)
 		(uuid "649ba6f2-397b-44f9-ac63-b9b68fd86880")
+	)
+	(text "SubFiltrado"
+		(exclude_from_sim no)
+		(at 285.496 356.616 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "6816de10-9b7a-417a-9f91-711249e5c4d6")
 	)
 	(text "SobreFiltrado"
 		(exclude_from_sim no)
@@ -8662,16 +8648,6 @@
 			)
 		)
 		(uuid "81921645-7137-42f3-a37c-1e86fd1acf4d")
-	)
-	(text "C_f = 42pF para aplanar la \nrespuesta de C_i = 1nF parasito "
-		(exclude_from_sim no)
-		(at 329.692 352.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81da55a5-6fca-4191-b9e3-a0f83cf6f1f7")
 	)
 	(text "C_f=2.5nF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
 		(exclude_from_sim no)
@@ -8769,6 +8745,16 @@
 		)
 		(uuid "993e4b24-2607-4972-a9e1-631ef70f516a")
 	)
+	(text "C_f = 1nF para aplanar la \nrespuesta de C_i = 1nF parasito "
+		(exclude_from_sim no)
+		(at 286.512 350.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ba24282-4fd5-4e29-a941-4a6cef0c3116")
+	)
 	(text "C_f=674pF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
 		(exclude_from_sim no)
 		(at 306.07 245.872 0)
@@ -8778,16 +8764,6 @@
 			)
 		)
 		(uuid "9c9c5e5f-340d-4088-984a-e99a9110b098")
-	)
-	(text "C_f=281pF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
-		(exclude_from_sim no)
-		(at 329.692 364.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a13dd800-dcdd-4bd7-a687-7de385793a7b")
 	)
 	(text "C_f = 10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c = 482[Hz]"
 		(exclude_from_sim no)
@@ -8821,6 +8797,18 @@
 		)
 		(uuid "a650840c-ebc0-468a-acc9-11398c282996")
 	)
+	(text "CriticamenteFiltrado"
+		(exclude_from_sim no)
+		(at 286.258 345.948 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "abca8692-17ac-4040-9450-3de5df481bcc")
+	)
 	(text "C_f=1.5nF para aplanar la \nrespuesta de C_i=1nF parasito "
 		(exclude_from_sim no)
 		(at 145.542 280.162 0)
@@ -8843,17 +8831,17 @@
 		)
 		(uuid "b00642ed-0041-4aff-93f2-921d23469282")
 	)
-	(text "CriticamenteFiltrado"
+	(text "CORREGIDO"
 		(exclude_from_sim no)
-		(at 329.438 348.234 0)
+		(at 208.534 371.094 0)
 		(effects
 			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
+				(size 1.905 1.905)
+				(thickness 0.381)
 				(bold yes)
 			)
 		)
-		(uuid "b467fb3f-6e3a-409d-80de-0f215d6e8d4b")
+		(uuid "b0fa5b2e-66cb-4138-bee1-dc496396a084")
 	)
 	(text "SubFiltrado"
 		(exclude_from_sim no)
@@ -8889,15 +8877,18 @@
 		)
 		(uuid "bb4384cb-05b3-4db9-98ed-13109fcec2f2")
 	)
-	(text "C_f=20pF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
+	(text "Se deja en una amplificación de A_v = 1 = 1k/1k"
 		(exclude_from_sim no)
-		(at 285.75 363.22 0)
+		(at 211.074 382.524 0)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 10 65 6 1)
 			)
 		)
-		(uuid "c96902cb-13bc-4eb0-992f-54feeb23db78")
+		(uuid "c8dd408a-0fe4-4dba-99f3-8cf802666971")
 	)
 	(text "R=100[k]\nC=10[nF]\nF_c=159[Hz]\n\nCambia a \n\nR=10[k]\nC=10[nF]\nF_c=1591[Hz]"
 		(exclude_from_sim no)
@@ -8909,27 +8900,15 @@
 		)
 		(uuid "cc2b7aac-9b57-43c4-a630-490b1c14f36e")
 	)
-	(text "C_f=10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c=663[Hz] !?!?!?"
+	(text "C_f = 6.4[nF] Como cota inferior\ndel filtro pasa bajos\nF_c = 23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
 		(exclude_from_sim no)
-		(at 329.438 342.138 0)
+		(at 286.512 362.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 8 8 1)
 			)
 		)
-		(uuid "d1ba9f04-3134-4de7-be37-43d93b1b34f0")
-	)
-	(text "C_f=10nF como filtro pasa bajos\nprofuce una frecuencia de corte de\nF_c=48[Hz] !!!!!!!!!"
-		(exclude_from_sim no)
-		(at 285.242 347.218 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 230 0 0 1)
-			)
-		)
-		(uuid "d6d8423e-c846-4d2a-9aa6-7c608a2e3a6b")
+		(uuid "d178d2b9-dd0b-4ee0-8962-eeb407edfa8a")
 	)
 	(text "C_f=200pF Como cota inferior\ndel filtro pasa bajos\nF_c=23.6[kHz] --> Media geometrica entre \n				  1600Hz y 350kHz "
 		(exclude_from_sim no)
@@ -8943,30 +8922,6 @@
 	)
 	(text "SubFiltrado"
 		(exclude_from_sim no)
-		(at 328.676 358.902 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "d9e55345-12da-4c60-a72d-31b462645f91")
-	)
-	(text "CriticamenteFiltrado"
-		(exclude_from_sim no)
-		(at 285.496 351.536 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "e43c650e-12d4-494b-a286-5a0b2a3ae855")
-	)
-	(text "SubFiltrado"
-		(exclude_from_sim no)
 		(at 305.054 240.284 0)
 		(effects
 			(font
@@ -8976,30 +8931,6 @@
 			)
 		)
 		(uuid "e4a0f2f2-4924-4bea-a14c-1fb427af1ede")
-	)
-	(text "SubFiltrado"
-		(exclude_from_sim no)
-		(at 284.734 358.648 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "e6a72448-4064-401b-8bcc-4198389127e3")
-	)
-	(text "SobreFiltrado"
-		(exclude_from_sim no)
-		(at 285.242 343.662 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "ecabb4d4-774b-4816-8a45-c6bad645b603")
 	)
 	(text "CriticamenteFiltrado"
 		(exclude_from_sim no)
@@ -9022,6 +8953,18 @@
 			)
 		)
 		(uuid "f51dc2d8-5cb5-456e-bc91-bc0597da859f")
+	)
+	(text "R_f = 1k\nR_i = 1k"
+		(exclude_from_sim no)
+		(at 285.75 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f83b9a88-f14b-44d6-9bea-557a94970c7e")
 	)
 	(text "Adaptacion de Señal"
 		(exclude_from_sim no)
@@ -26674,7 +26617,7 @@
 				)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "1k"
 			(at 226.314 346.71 90)
 			(show_name no)
 			(do_not_autoplace no)

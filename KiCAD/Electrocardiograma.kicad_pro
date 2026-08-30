@@ -716,6 +716,12 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ali",
+          "name": "Ali",
+          "show": false
         }
       ],
       "filter_string": "",

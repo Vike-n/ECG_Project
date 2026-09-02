@@ -7674,162 +7674,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV1117-ADJ"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV1117-ADJ"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, adjustable output, TO-220/TO-252/TO-263/SOT-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo adjustable positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV1117-ADJ_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV1117-ADJ_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -9051,12 +8895,6 @@
 		(uuid "264261cd-06cc-4df0-b33f-63059c70e083")
 	)
 	(junction
-		(at 547.37 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "269c540b-b5e7-4207-8311-42e1ffc223ff")
-	)
-	(junction
 		(at 58.42 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9079,12 +8917,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb385ee-e6a5-4e49-a3d1-f38705533f62")
-	)
-	(junction
-		(at 542.29 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31e37e84-999e-4037-ad74-95f1d59bd4c8")
 	)
 	(junction
 		(at 497.84 129.54)
@@ -9279,12 +9111,6 @@
 		(uuid "9adde3f3-daec-4463-80cc-bdc0cbcf3782")
 	)
 	(junction
-		(at 542.29 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e34a48c-74d6-40a1-a6e2-b11748893c6c")
-	)
-	(junction
 		(at 172.72 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9403,12 +9229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca254aa0-dede-40a4-882e-bf82bdfc736b")
-	)
-	(junction
-		(at 547.37 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d82dc97a-f96a-4ec6-a542-4db0e22a3a20")
 	)
 	(junction
 		(at 506.73 82.55)
@@ -10162,16 +9982,6 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 82.55) (xy 542.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7c7a59-86a7-4f63-b1e8-9beb7a726cbc")
-	)
-	(wire
-		(pts
 			(xy 46.99 195.58) (xy 43.18 195.58)
 		)
 		(stroke
@@ -10399,16 +10209,6 @@
 			(type default)
 		)
 		(uuid "4b69fcaf-cce4-4a6b-8d2b-2aac73180f87")
-	)
-	(wire
-		(pts
-			(xy 547.37 82.55) (xy 554.99 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd167b0-619b-4771-8369-7c29ea73a1e4")
 	)
 	(wire
 		(pts
@@ -11402,16 +11202,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 82.55) (xy 547.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6e7c5f-698a-44cc-a054-7e461aa9ec19")
-	)
-	(wire
-		(pts
 			(xy 464.82 66.04) (xy 466.09 66.04)
 		)
 		(stroke
@@ -11469,16 +11259,6 @@
 			(type default)
 		)
 		(uuid "a149acd3-5767-4c8b-90dc-24b0c330d19f")
-	)
-	(wire
-		(pts
-			(xy 542.29 90.17) (xy 554.99 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15f7f4e-f14d-4192-af10-2da235667c5e")
 	)
 	(wire
 		(pts
@@ -11822,16 +11602,6 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 74.93) (xy 549.91 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09a775b-9774-42d8-8f42-d26f38a06a26")
-	)
-	(wire
-		(pts
 			(xy 443.23 87.63) (xy 443.23 74.93)
 		)
 		(stroke
@@ -12022,7 +11792,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 90.17) (xy 542.29 90.17)
+			(xy 534.67 90.17) (xy 554.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -12332,7 +12102,7 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 74.93) (xy 547.37 74.93)
+			(xy 544.83 74.93) (xy 549.91 74.93)
 		)
 		(stroke
 			(width 0)
@@ -16641,100 +16411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV1117-ADJ")
-		(at 537.21 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d77927-6df3-4e74-9404-9a07ec67b5c3")
-		(property "Reference" "U6"
-			(at 537.21 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117-ADJ"
-			(at 537.21 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 537.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-			(at 537.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, adjustable output, TO-220/TO-252/TO-263/SOT-223"
-			(at 537.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-17600-1-ND"
-			(at 537.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f13776fc-47b1-446b-a790-61124252f1f3")
-		)
-		(pin "3"
-			(uuid "445f0b5f-47c8-4ad6-a7ad-1419e4ff2d83")
-		)
-		(pin "1"
-			(uuid "2f15f51c-c55d-4518-a3b6-c5eefc77f8c0")
-		)
-		(instances
-			(project "Electrocardiograma"
-				(path "/daa88958-acc8-459e-83b6-465edaf551be"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 64.77 281.94 90)
@@ -18926,7 +18602,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 542.29 86.36 0)
+		(at 571.5 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18937,7 +18613,7 @@
 		(fields_autoplaced yes)
 		(uuid "69d9a801-9d4a-40b6-a5ed-825f3bfe0825")
 		(property "Reference" "R32"
-			(at 544.83 85.0899 0)
+			(at 574.04 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18948,7 +18624,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 544.83 87.6299 0)
+			(at 574.04 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18959,7 +18635,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 540.512 86.36 90)
+			(at 569.722 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18970,7 +18646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 86.36 0)
+			(at 571.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18981,7 +18657,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 542.29 86.36 0)
+			(at 571.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18992,7 +18668,7 @@
 			)
 		)
 		(property "DigiKey" "311-453CRCT-ND"
-			(at 542.29 86.36 0)
+			(at 571.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23600,7 +23276,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 547.37 78.74 0)
+		(at 563.88 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23611,7 +23287,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8b640d8-5eec-4e20-87a0-ac00a9aa21e6")
 		(property "Reference" "R31"
-			(at 549.91 77.4699 0)
+			(at 566.42 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23622,7 +23298,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 549.91 80.0099 0)
+			(at 566.42 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23633,7 +23309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 545.592 78.74 90)
+			(at 562.102 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23644,7 +23320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 547.37 78.74 0)
+			(at 563.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23655,7 +23331,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 547.37 78.74 0)
+			(at 563.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23666,7 +23342,7 @@
 			)
 		)
 		(property "DigiKey" "RR12P120DCT-ND"
-			(at 547.37 78.74 0)
+			(at 563.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
